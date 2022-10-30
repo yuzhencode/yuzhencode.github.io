@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 12 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Yuzhen Li</title>
       <link>/authors/yuzhen-li/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
       <guid>/authors/yuzhen-li/</guid>
       <description></description>
     </item>
@@ -25,7 +25,9 @@
       <link>/authors/admin/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
-      <description></description>
+      <description>&lt;p&gt;I graduated as a master student with distinction from the University of Birmingham at Computer Science. I am very fortunate to have been supervised by Dr. Peter Hancox for my thesis on &lt;em&gt;Fine-grained Sentiment Analysis of Yelp-review and Exploring Multi-class Imbalanced Data&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;When I am not working. I like to spend time exploring the city and listening to a Chinese singer. And I run a database query website for this singer, used by a fan group of around 40 people. This website involves around 160,000 data, developed with MySQL database, Python crawler technology, and Flask framework.&lt;/p&gt;
+</description>
     </item>
     
     <item>

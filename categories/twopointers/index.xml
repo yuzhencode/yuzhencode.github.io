@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Yuzhen-blog</title>
-    <link>/post/</link>
-      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
+    <title>TwoPointers | Yuzhen-blog</title>
+    <link>/categories/twopointers/</link>
+      <atom:link href="/categories/twopointers/index.xml" rel="self" type="application/rss+xml" />
+    <description>TwoPointers</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Posts</title>
-      <link>/post/</link>
+      <title>TwoPointers</title>
+      <link>/categories/twopointers/</link>
     </image>
     
     <item>
@@ -189,22 +189,6 @@ Decide: Are there k (distinct) numbers in the input which sum to Target integer?
 &lt;p&gt;Time complexity: $$O(n^{k-1})$$
 Space complexity:  $$O(1)$$&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Test Artical2</title>
-      <link>/post/writing-technical-content/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>/post/writing-technical-content/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test Artical</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
-      <description></description>
     </item>
     
   </channel>

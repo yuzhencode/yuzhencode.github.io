@@ -5,12 +5,191 @@
     <link>/authors/yuzhen-li/</link>
       <atom:link href="/authors/yuzhen-li/index.xml" rel="self" type="application/rss+xml" />
     <description>Yuzhen Li</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 12 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Yuzhen Li</title>
       <link>/authors/yuzhen-li/</link>
     </image>
+    
+    <item>
+      <title>01 k-Sum problem solution</title>
+      <link>/post/01-ksum-problem-solution/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/post/01-ksum-problem-solution/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Programming is like a magic tool for me, I like to use it to solve all kinds of problems. I can always find something fun and learn something new from it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This blog talks about the general solution for k-Sum problem. From 2Sum to 2+1Sum,  then 2+1+1Sum. Utimately, the generic solution came out. k-Sum Problem is like Input n integers (positive and negative) and Decide are there k numbers in the input that sum to target integer?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Speaking From 2Sum Problem which is the most basic problem.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&#34;1-2sum&#34;&gt;1. 2Sum&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+You can return the answer in any order.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Example 1:
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5 id=&#34;1--brute-force-solution&#34;&gt;1）  Brute Force Solution&lt;/h5&gt;
+&lt;p&gt;It is obvious that two nested loops can exhaust all sums.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def twoSum(self, nums: List[int], target: int) -&amp;gt; List[int]:
+    for i in range(0, len(nums)):
+        for j in range(i + 1, len(nums)):
+            if nums[j] == target - nums[i]:
+                return [i, j]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Time complexity: $$O(n^2)$$
+Space complexity:  $$O(1)$$&lt;/p&gt;
+&lt;h5 id=&#34;2--use-the-hashtable-or-hashmap-feature-of-the-programming-language&#34;&gt;2）  Use the Hashtable or Hashmap Feature of the Programming Language&lt;/h5&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def twoSum(self, nums: List[int], target: int) -&amp;gt; List[int]:
+    map = {}
+    for i, n in enumerate(nums):
+        m = target - n
+        if m in map:
+            return [map[m], i]
+        else:
+            map[n] = i
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Time complexity: $$O(n)$$
+Space complexity:  $$O(n)$$&lt;/p&gt;
+&lt;h5 id=&#34;3--two-pointers-technique&#34;&gt;3）  Two Pointers Technique&lt;/h5&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def twoSum(self, nums: List[int], target: int) -&amp;gt; List[int]:
+    nums_sorted = sorted(nums)
+    lo = 0
+    hi = len(nums) - 1
+    while lo &amp;lt; hi :
+        sum = nums_sorted[lo] + nums_sorted[hi]
+        if sum &amp;lt; target:
+            lo = lo + 1
+        elif sum &amp;gt; target:
+            hi = hi - 1
+        elif sum == target:
+            i = nums.index(nums_sorted[lo])
+            if nums.count(nums_sorted[hi]) &amp;gt; 1:
+                j = nums.index(nums_sorted[hi], i+1)
+            else:
+                j = nums.index(nums_sorted[hi])
+            return i,j
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Time complexity: $$O(n)$$
+Space complexity:  $$O(n)$$
+Because this problem needs to return index, extra space is needed to store the sorted array. If the goal is to return numbers, the original space can be used to store them, so that the space complexity is $$O(1)$$.&lt;/p&gt;
+&lt;h4 id=&#34;2-3sum&#34;&gt;2. 3Sum&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
+Notice that the solution set must not contain duplicate triplets.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Example 1:
+Input: nums = [-1,0,1,2,-1,-4]
+Output: [[-1,-1,2],[-1,0,1]]
+Explanation:
+nums[0] + nums[1] + nums[2] = (-1) + 0 + 1 = 0.
+nums[1] + nums[2] + nums[4] = 0 + 1 + (-1) = 0.
+nums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0.
+The distinct triplets are [-1,0,1] and [-1,-1,2].
+Notice that the order of the output and the order of the triplets does not matter.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5 id=&#34;1--brute-force-solution1&#34;&gt;1）  Brute Force Solution&lt;/h5&gt;
+&lt;p&gt;Three nested loops would exhaust all sums, which is obviously too complicated, so we drop this approach.&lt;/p&gt;
+&lt;h5 id=&#34;2--converted-to-the-twosum-problem-with-first-fixed-position&#34;&gt;2）  Converted to the TwoSum Problem with First Fixed Position&lt;/h5&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def threeSum(self, nums: List[int]) -&amp;gt; List[List[int]]:
+    nums = sorted(nums)
+    res = []
+    target = 0
+    for i in range(0, len(nums)):
+        if 0&amp;lt;i&amp;lt;len(nums)-1 and nums[i]==nums[i-1]:
+            continue
+        tuples=twoSum(nums[i+1:], target-nums[i])
+        for tuple in tuples:
+            tuple.append(nums[i])
+            res.append(tuple)
+    return res
+def twoSum(nums, target):
+    lo = 0
+    hi = len(nums)-1
+    res = []
+    while( lo &amp;lt; hi ):
+        left = nums[lo]
+        right = nums[hi]
+        sum = left + right
+        if sum &amp;lt; target:
+            while lo&amp;lt;hi and nums[lo]==left:
+                lo = lo+1
+        elif sum &amp;gt; target:
+            while lo&amp;lt;hi and nums[hi]==right:
+                hi = hi-1
+        else:
+            res.append([left, right])
+            while lo&amp;lt;hi and nums[lo]==left:
+                lo = lo+1
+            while lo&amp;lt;hi and nums[hi]==right:
+                hi = hi-1
+return res
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Time complexity: $$O(n^2)$$
+Space complexity:  $$O(1)$$&lt;/p&gt;
+&lt;h4 id=&#34;3-4sum&#34;&gt;3. 4Sum&lt;/h4&gt;
+&lt;p&gt;Another similar problem on Leetcode is the 4Sum problem, and we can learn the idea of 3Sum to derive a solution.&lt;/p&gt;
+&lt;h4 id=&#34;4-ksum&#34;&gt;4. k-Sum&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;Problem: k-Sum
+Input:n integers (positive or negative)
+Decide: Are there k (distinct) numbers in the input which sum to Target integer?
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The number of K can be any number greater than 2, as long as it does not exceed the size of the array.&lt;/p&gt;
+&lt;p&gt;Constraints：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Whether the array is ordered or not？&lt;/li&gt;
+&lt;li&gt;Whether the elements in the array are distinct？&lt;/li&gt;
+&lt;li&gt;Whether the sub array is uniquely determined？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We use the generic approach, assuming that the array is unordered, that the array elements are duplicated and that the resulting subarray is not uniquely determined and may be 0 or more.&lt;/p&gt;
+&lt;h5 id=&#34;a-generalized-solution-to-the-ksum-problem-using-the-idea-of-recursion&#34;&gt;A generalized solution to the kSum problem using the idea of recursion.&lt;/h5&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def nSum(nums, n, target):
+    nums = sorted(nums)
+    res = []
+    if n &amp;lt; 2 or len(nums) &amp;lt; 2:
+        print(&amp;quot;&amp;quot;)
+    elif n==2:
+        lo = 0
+        hi = len(nums)-1
+        res = []
+        while( lo &amp;lt; hi ):
+            left = nums[lo]
+            right = nums[hi]
+            sum = left + right
+            if sum &amp;lt; target:
+                while lo&amp;lt;hi and nums[lo]==left:
+                    lo = lo+1
+            elif sum &amp;gt; target:
+                while lo&amp;lt;hi and nums[hi]==right:
+                    hi = hi-1
+            else:
+                res.append([left, right])
+                while lo&amp;lt;hi and nums[lo]==left:
+                    lo = lo+1
+                while lo&amp;lt;hi and nums[hi]==right:
+                    hi = hi-1
+        return res  
+    else:      
+        for i in range(0, len(nums)):
+            if 0&amp;lt;i&amp;lt;len(nums)-1 and nums[i]==nums[i-1]:
+                continue
+            tuples=nSum(nums[i+1:], n-1, target-nums[i])
+            if tuples != None:
+                for tuple in tuples:
+                    tuple.append(nums[i])
+                    res.append(tuple)
+        return res
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Time complexity: $$O(n^{k-1})$$
+Space complexity:  $$O(1)$$&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Test Artical2</title>

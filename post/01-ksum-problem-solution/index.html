@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.">
+  <meta name="description" content="k-Sum Problem is like Input n integers (positive and negative) and Decide are there k numbers in the input that sum to target integer?">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/preprint/">
+  <link rel="alternate" hreflang="en-us" href="/post/01-ksum-problem-solution/">
 
   
 
@@ -43,6 +43,9 @@
   
 
   
+  
+  
+  <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -172,9 +175,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -213,7 +216,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/publication/preprint/">
+  <link rel="canonical" href="/post/01-ksum-problem-solution/">
 
   
   
@@ -226,15 +229,15 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Yuzhen-blog">
-  <meta property="og:url" content="/publication/preprint/">
-  <meta property="og:title" content="An example preprint / working paper | Yuzhen-blog">
-  <meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum."><meta property="og:image" content="/publication/preprint/featured.jpg">
-  <meta property="twitter:image" content="/publication/preprint/featured.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="/post/01-ksum-problem-solution/">
+  <meta property="og:title" content="01 k-Sum problem solution | Yuzhen-blog">
+  <meta property="og:description" content="k-Sum Problem is like Input n integers (positive and negative) and Decide are there k numbers in the input that sum to target integer?"><meta property="og:image" content="/post/01-ksum-problem-solution/featured.jpg">
+  <meta property="twitter:image" content="/post/01-ksum-problem-solution/featured.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2017-01-01T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2022-10-18T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2019-04-07T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-10-18T00:00:00&#43;00:00">
   
 
   
@@ -246,6 +249,8 @@
 
 
 
+
+  
 
 
 
@@ -255,19 +260,19 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/publication/preprint/"
+    "@id": "/post/01-ksum-problem-solution/"
   },
-  "headline": "An example preprint / working paper",
+  "headline": "01 k-Sum problem solution",
   
   "image": [
-    "/publication/preprint/featured.jpg"
+    "/post/01-ksum-problem-solution/featured.jpg"
   ],
   
-  "datePublished": "2017-01-01T00:00:00Z",
-  "dateModified": "2019-04-07T00:00:00Z",
+  "datePublished": "2022-10-18T00:00:00Z",
+  "dateModified": "2022-10-18T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -282,7 +287,7 @@
       "url": "img//"
     }
   },
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum."
+  "description": "k-Sum Problem is like Input n integers (positive and negative) and Decide are there k numbers in the input that sum to target integer?"
 }
 </script>
 
@@ -300,7 +305,7 @@
 
 
 
-  <title>An example preprint / working paper | Yuzhen-blog</title>
+  <title>01 k-Sum problem solution | Yuzhen-blog</title>
 
 </head>
 
@@ -556,7 +561,7 @@
 </nav>
 
 
-  <div class="pub">
+  <article class="article">
 
   
 
@@ -580,14 +585,14 @@
 
 
   
-  
-    
   
 
 
 <div class="article-container pt-3">
-  <h1>An example preprint / working paper</h1>
+  <h1>01 k-Sum problem solution</h1>
 
+  
+  <p class="page-subtitle">k-Sum problem solution</p>
   
 
   
@@ -605,7 +610,7 @@
 
 
   
-  <span><a href="/authors/admin/">Yuzhen Li</a></span>
+  <span><a href="/authors/yuzhen-li/">Yuzhen Li</a></span>
 
   </div>
   
@@ -617,19 +622,28 @@
     
       
     
-    April 2019
+    Oct 18, 2022
   </span>
   
 
   
 
   
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
 
   
   
   
 
   
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/leetcode/">LeetCode</a>, <a href="/categories/twopointers/">TwoPointers</a></span>
   
 
 </div>
@@ -648,117 +662,14 @@
 
 
 
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="/#" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="/#" target="_blank" rel="noopener">
-  Dataset
-</a>
-
-
-
-  
-    
-  
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="/#" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="/#" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="/#" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="http://example.org" target="_blank" rel="noopener">
-    
-    Custom Link
-  </a>
-
 
 </div>
 
 
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 480px;">
+<div class="article-header container-fluid featured-image-wrapper mt-4 mb-4" style="max-width: 2000px; max-height: 1333px;">
   <div style="position: relative">
-    <img src="/publication/preprint/featured_hu559a5add5185b02575aa8333502ab2cc_220813_720x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
-    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/s9CC2SKySJM"><strong>Unsplash</strong></a></span>
+    <img src="/post/01-ksum-problem-solution/featured.jpg" alt="" class="featured-image">
+    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/OGZtQF8iC0g"><strong>John Moeses Bauan</strong></a></span>
   </div>
 </div>
 
@@ -766,55 +677,186 @@
 
   <div class="article-container">
 
-    
-    <h3>Abstract</h3>
-    <p class="pub-abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.</p>
-    
+    <div class="article-style">
+      <blockquote>
+<p>Programming is like a magic tool for me, I like to use it to solve all kinds of problems. I can always find something fun and learn something new from it.</p>
+</blockquote>
+<p>This blog talks about the general solution for k-Sum problem. From 2Sum to 2+1Sum,  then 2+1+1Sum. Utimately, the generic solution came out. k-Sum Problem is like Input n integers (positive and negative) and Decide are there k numbers in the input that sum to target integer?</p>
+<p><em><strong>Speaking From 2Sum Problem which is the most basic problem.</strong></em></p>
+<h4 id="1-2sum">1. 2Sum</h4>
+<blockquote>
+<p>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+You can return the answer in any order.</p>
+</blockquote>
+<blockquote>
+<p>Example 1:
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].</p>
+</blockquote>
+<h5 id="1--brute-force-solution">1）  Brute Force Solution</h5>
+<p>It is obvious that two nested loops can exhaust all sums.</p>
+<pre><code class="language-python">def twoSum(self, nums: List[int], target: int) -&gt; List[int]:
+    for i in range(0, len(nums)):
+        for j in range(i + 1, len(nums)):
+            if nums[j] == target - nums[i]:
+                return [i, j]
+</code></pre>
+<p>Time complexity: $$O(n^2)$$
+Space complexity:  $$O(1)$$</p>
+<h5 id="2--use-the-hashtable-or-hashmap-feature-of-the-programming-language">2）  Use the Hashtable or Hashmap Feature of the Programming Language</h5>
+<pre><code class="language-python">def twoSum(self, nums: List[int], target: int) -&gt; List[int]:
+    map = {}
+    for i, n in enumerate(nums):
+        m = target - n
+        if m in map:
+            return [map[m], i]
+        else:
+            map[n] = i
+</code></pre>
+<p>Time complexity: $$O(n)$$
+Space complexity:  $$O(n)$$</p>
+<h5 id="3--two-pointers-technique">3）  Two Pointers Technique</h5>
+<pre><code class="language-python">def twoSum(self, nums: List[int], target: int) -&gt; List[int]:
+    nums_sorted = sorted(nums)
+    lo = 0
+    hi = len(nums) - 1
+    while lo &lt; hi :
+        sum = nums_sorted[lo] + nums_sorted[hi]
+        if sum &lt; target:
+            lo = lo + 1
+        elif sum &gt; target:
+            hi = hi - 1
+        elif sum == target:
+            i = nums.index(nums_sorted[lo])
+            if nums.count(nums_sorted[hi]) &gt; 1:
+                j = nums.index(nums_sorted[hi], i+1)
+            else:
+                j = nums.index(nums_sorted[hi])
+            return i,j
+</code></pre>
+<p>Time complexity: $$O(n)$$
+Space complexity:  $$O(n)$$
+Because this problem needs to return index, extra space is needed to store the sorted array. If the goal is to return numbers, the original space can be used to store them, so that the space complexity is $$O(1)$$.</p>
+<h4 id="2-3sum">2. 3Sum</h4>
+<blockquote>
+<p>Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
+Notice that the solution set must not contain duplicate triplets.</p>
+</blockquote>
+<blockquote>
+<p>Example 1:
+Input: nums = [-1,0,1,2,-1,-4]
+Output: [[-1,-1,2],[-1,0,1]]
+Explanation:
+nums[0] + nums[1] + nums[2] = (-1) + 0 + 1 = 0.
+nums[1] + nums[2] + nums[4] = 0 + 1 + (-1) = 0.
+nums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0.
+The distinct triplets are [-1,0,1] and [-1,-1,2].
+Notice that the order of the output and the order of the triplets does not matter.</p>
+</blockquote>
+<h5 id="1--brute-force-solution1">1）  Brute Force Solution</h5>
+<p>Three nested loops would exhaust all sums, which is obviously too complicated, so we drop this approach.</p>
+<h5 id="2--converted-to-the-twosum-problem-with-first-fixed-position">2）  Converted to the TwoSum Problem with First Fixed Position</h5>
+<pre><code class="language-python">def threeSum(self, nums: List[int]) -&gt; List[List[int]]:
+    nums = sorted(nums)
+    res = []
+    target = 0
+    for i in range(0, len(nums)):
+        if 0&lt;i&lt;len(nums)-1 and nums[i]==nums[i-1]:
+            continue
+        tuples=twoSum(nums[i+1:], target-nums[i])
+        for tuple in tuples:
+            tuple.append(nums[i])
+            res.append(tuple)
+    return res
+def twoSum(nums, target):
+    lo = 0
+    hi = len(nums)-1
+    res = []
+    while( lo &lt; hi ):
+        left = nums[lo]
+        right = nums[hi]
+        sum = left + right
+        if sum &lt; target:
+            while lo&lt;hi and nums[lo]==left:
+                lo = lo+1
+        elif sum &gt; target:
+            while lo&lt;hi and nums[hi]==right:
+                hi = hi-1
+        else:
+            res.append([left, right])
+            while lo&lt;hi and nums[lo]==left:
+                lo = lo+1
+            while lo&lt;hi and nums[hi]==right:
+                hi = hi-1
+return res
+</code></pre>
+<p>Time complexity: $$O(n^2)$$
+Space complexity:  $$O(1)$$</p>
+<h4 id="3-4sum">3. 4Sum</h4>
+<p>Another similar problem on Leetcode is the 4Sum problem, and we can learn the idea of 3Sum to derive a solution.</p>
+<h4 id="4-ksum">4. k-Sum</h4>
+<pre><code>Problem: k-Sum
+Input:n integers (positive or negative)
+Decide: Are there k (distinct) numbers in the input which sum to Target integer?
+</code></pre>
+<p>The number of K can be any number greater than 2, as long as it does not exceed the size of the array.</p>
+<p>Constraints：</p>
+<ul>
+<li>Whether the array is ordered or not？</li>
+<li>Whether the elements in the array are distinct？</li>
+<li>Whether the sub array is uniquely determined？</li>
+</ul>
+<p>We use the generic approach, assuming that the array is unordered, that the array elements are duplicated and that the resulting subarray is not uniquely determined and may be 0 or more.</p>
+<h5 id="a-generalized-solution-to-the-ksum-problem-using-the-idea-of-recursion">A generalized solution to the kSum problem using the idea of recursion.</h5>
+<pre><code class="language-python">def nSum(nums, n, target):
+    nums = sorted(nums)
+    res = []
+    if n &lt; 2 or len(nums) &lt; 2:
+        print(&quot;&quot;)
+    elif n==2:
+        lo = 0
+        hi = len(nums)-1
+        res = []
+        while( lo &lt; hi ):
+            left = nums[lo]
+            right = nums[hi]
+            sum = left + right
+            if sum &lt; target:
+                while lo&lt;hi and nums[lo]==left:
+                    lo = lo+1
+            elif sum &gt; target:
+                while lo&lt;hi and nums[hi]==right:
+                    hi = hi-1
+            else:
+                res.append([left, right])
+                while lo&lt;hi and nums[lo]==left:
+                    lo = lo+1
+                while lo&lt;hi and nums[hi]==right:
+                    hi = hi-1
+        return res  
+    else:      
+        for i in range(0, len(nums)):
+            if 0&lt;i&lt;len(nums)-1 and nums[i]==nums[i-1]:
+                continue
+            tuples=nSum(nums[i+1:], n-1, target-nums[i])
+            if tuples != None:
+                for tuple in tuples:
+                    tuple.append(nums[i])
+                    res.append(tuple)
+        return res
+</code></pre>
+<p>Time complexity: $$O(n^{k-1})$$
+Space complexity:  $$O(1)$$</p>
 
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Type</div>
-          <div class="col-12 col-md-9">
-            
-            
-            <a href="/publication/#3">
-              Preprint
-            </a>
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
     </div>
-    <div class="d-md-none space-below"></div>
-    
-
-    
-
-    <div class="space-below"></div>
-
-    <div class="article-style"><div class="alert alert-note">
-  <div>
-    Click the <em>Slides</em> button above to demo Academic's Markdown slides feature.
-  </div>
-</div>
-<p>Supplementary notes can be added here, including <a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/">code and math</a>.</p>
-</div>
 
     
 
 
 
 
-
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/tags/source-themes/">Source Themes</a>
-  
-</div>
 
 
 
@@ -829,7 +871,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/preprint/&amp;text=An%20example%20preprint%20/%20working%20paper" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/post/01-ksum-problem-solution/&amp;text=01%20k-Sum%20problem%20solution" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -842,7 +884,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/preprint/&amp;t=An%20example%20preprint%20/%20working%20paper" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/post/01-ksum-problem-solution/&amp;t=01%20k-Sum%20problem%20solution" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -855,7 +897,7 @@
       
       
       <li>
-        <a href="mailto:?subject=An%20example%20preprint%20/%20working%20paper&amp;body=/publication/preprint/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=01%20k-Sum%20problem%20solution&amp;body=/post/01-ksum-problem-solution/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -868,7 +910,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/preprint/&amp;title=An%20example%20preprint%20/%20working%20paper" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/post/01-ksum-problem-solution/&amp;title=01%20k-Sum%20problem%20solution" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -881,7 +923,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=An%20example%20preprint%20/%20working%20paper%20/publication/preprint/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=01%20k-Sum%20problem%20solution%20/post/01-ksum-problem-solution/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -894,7 +936,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/preprint/&amp;title=An%20example%20preprint%20/%20working%20paper" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/post/01-ksum-problem-solution/&amp;title=01%20k-Sum%20problem%20solution" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -927,52 +969,15 @@
   
   
   
-    
-  
   
   <div class="media author-card content-widget-hr">
     
-      
-      <img class="portrait mr-3" src="/authors/admin/avatar_hu14619725be8af451699eecf8afe854ff_85442_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
-    
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/">Yuzhen Li</a></h5>
-      <h6 class="card-subtitle">Student of Computer Science</h6>
-      <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+      <h5 class="card-title"><a href="/authors/yuzhen-li/"></a></h5>
+      
+      
       <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-    <li>
-      <a href="mailto:yuzhencode@gmail.com" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/yuzhencode" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
   
 </ul>
 
@@ -989,22 +994,11 @@
 
   
   
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/publication/conference-paper/">An example conference paper</a></li>
-      
-      <li><a href="/publication/journal-article/">An example journal article</a></li>
-      
-    </ul>
-  </div>
-  
 
 
 
   </div>
-</div>
+</article>
 
       
 
@@ -1016,6 +1010,8 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
 
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.3/mermaid.min.js" integrity="" crossorigin="anonymous" title="mermaid"></script>
       
 
       
