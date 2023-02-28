@@ -5,12 +5,168 @@
     <link>/authors/yuzhen-li/</link>
       <atom:link href="/authors/yuzhen-li/index.xml" rel="self" type="application/rss+xml" />
     <description>Yuzhen Li</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Yuzhen Li</title>
       <link>/authors/yuzhen-li/</link>
     </image>
+    
+    <item>
+      <title>MIT 6.null-00 Course Overview and the Shell</title>
+      <link>/post/mit-6.null-00course-overview&#43;the-shell/</link>
+      <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>/post/mit-6.null-00course-overview&#43;the-shell/</guid>
+      <description>&lt;p&gt;In traditional coursework, CS students are taught Data Structures, Algorithms, Operating Systems,  Machine Learning, etc. However, there is no specific course on the tools that must be used to put this knowledge into practice. For example, once you get into Linux, you will definitely use the Shell, and if you want to track changes to source code, you can&#39;t get around git. Most students know about these tools through their classmates or teachers or by reading some blogs online. The result of this is that knowledge of the tools is very shallow and scattered.&lt;/p&gt;
+&lt;p&gt;MIT 6.null The Missing Semester of Your CS Education designed to help computer science students fill in gaps in their education that may have been missed in traditional coursework and build a systematic understanding of CS pratical tools. The course is taught by experienced instructors and includes video lectures, readings, assignments, and programming projects. And the course materials are available online, and students can work through the material at their own speed.&lt;/p&gt;
+&lt;p&gt;Personally, most of the content of the course has already been used in my work so I&#39;ve had some practice, but I&#39;m still hoping to review and develop systematic knowledge through this open course.&lt;/p&gt;
+&lt;p&gt;Overall, MIT 6.null The Missing Semester of Your CS Education is an excellent resource for computer science students who are looking to fill in gaps in their education and develop practical skills that will help them in their careers. Whether you are a current student or a professional looking to expand your knowledge, this course is well worth exploring. With its emphasis on practical applications and flexible, self-paced learning, it offers a unique and valuable learning experience for anyone interested in computer science.&lt;/p&gt;
+&lt;p&gt;The following output is based on the Tencent could server&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;[yuzhencode@VM-16-4-centos ~]$ cat /etc/redhat-release 
+CentOS Linux release 7.6.1810 (Core) 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;notes&#34;&gt;NOTES&lt;/h4&gt;
+&lt;p&gt;Core of Shells: allow you to run programs, give them input, and inspect their output in a semi-structured way.&lt;/p&gt;
+&lt;p&gt;The shell parses the command by splitting it by whitespace, and then runs the program indicated by the first word, supplying each subsequent word as an argument that the program can access.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ls&lt;/strong&gt; command: To see what lives in a given directory.&lt;/p&gt;
+&lt;p&gt;Some other handy programs to know about at this point are &lt;strong&gt;mv&lt;/strong&gt; (to rename/move a file), &lt;strong&gt;cp&lt;/strong&gt; (to copy a file), and &lt;strong&gt;mkdir&lt;/strong&gt; (to make a new directory).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;man&lt;/strong&gt; command: It takes as an argument the name of a program, and shows you its manual page.&lt;/p&gt;
+&lt;p&gt;In the shell, programs have two primary “streams” associated with them: their input stream and their output stream.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;lt; file&lt;/strong&gt; and &lt;strong&gt;&amp;gt; file&lt;/strong&gt;: Let you rewire the input and output streams of a program to a file respectively.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;|&lt;/strong&gt; operator: lets you “chain” programs such that the output of one is the input of another.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;sudo&lt;/strong&gt; command: It lets you “do” something “as su” (short for “super user”, or “root”).&lt;/p&gt;
+&lt;h4 id=&#34;exercises&#34;&gt;EXERCISES&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;For this course, you need to be using a Unix shell like Bash or ZSH. If you are on Linux or macOS, you don’t have to do anything special. If you are on Windows, you need to make sure you are not running cmd.exe or PowerShell; you can use Windows Subsystem for Linux or a Linux virtual machine to use Unix-style command-line tools. To make sure you’re running an appropriate shell, you can try the command echo $SHELL. If it says something like /bin/bash or /usr/bin/zsh, that means you’re running the right program.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;[yuzhencode@VM-16-4-centos ~]$ echo $SHELL
+/bin/bash
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Create a new directory called missing under /tmp.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;[yuzhencode@VM-16-4-centos ~]$ mkdir /tmp/missing/
+[yuzhencode@VM-16-4-centos tmp]$ ls -l
+total 8
+drwxrwxr-x 2 yuzhencode yuzhencode 4096 Feb 17 04:59 missing
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Look up the touch program. The man program is your friend.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;[yuzhencode@VM-16-4-centos missing]$ man chmod
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Use touch to create a new file called semester in missing.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;[yuzhencode@VM-16-4-centos missing]$ touch semester
+[yuzhencode@VM-16-4-centos missing]$ ls -l
+total 0
+-rw-rw-r-- 1 yuzhencode yuzhencode 0 Feb 17 05:05 semester
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Write the following into that file, one line at a time:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;#!/bin/sh
+curl --head --silent https://missing.csail.mit.edu
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The first line might be tricky to get working. It’s helpful to know that # starts a comment in Bash, and ! has a special meaning even within double-quoted (&amp;quot;) strings. Bash treats single-quoted strings (&#39;) differently: they will do the trick in this case. See the Bash quoting manual page for more information.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;[yuzhencode@VM-16-4-centos missing]$ echo &#39;#!/bin/sh&#39; &amp;gt; semester 
+[yuzhencode@VM-16-4-centos missing]$ cat semester 
+#!/bin/sh
+[yuzhencode@VM-16-4-centos missing]$ echo &#39;curl --head --silent https://missing.csail.mit.edu&#39; &amp;gt;&amp;gt; semester 
+[yuzhencode@VM-16-4-centos missing]$ cat semester 
+#!/bin/sh
+curl --head --silent https://missing.csail.mit.edu
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Try to execute the file, i.e. type the path to the script (./semester) into your shell and press enter. Understand why it doesn’t work by consulting the output of ls (hint: look at the permission bits of the file).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;[yuzhencode@VM-16-4-centos missing]$ ./semester
+-bash: ./semester: Permission denied
+[yuzhencode@VM-16-4-centos missing]$ ls -l
+total 4
+-rw-rw-r-- 1 yuzhencode yuzhencode 31 Feb 17 06:38 semester
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;Run the command by explicitly starting the sh interpreter, and giving it the file semester as the first argument, i.e. sh semester. Why does this work, while ./semester didn’t?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;[yuzhencode@VM-16-4-centos missing]$ sh semester 
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 7987
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Sun, 12 Feb 2023 13:48:47 GMT
+Access-Control-Allow-Origin: *
+ETag: &amp;quot;63e8ee3f-1f33&amp;quot;
+expires: Thu, 16 Feb 2023 15:14:55 GMT
+Cache-Control: max-age=600
+x-proxy-cache: MISS
+X-GitHub-Request-Id: BD92:11EC:CC0C5:1144EC:63EE4617
+Accept-Ranges: bytes
+Date: Sun, 17 Feb 2023 22:44:25 GMT
+Via: 1.1 varnish
+Age: 112
+X-Served-By: cache-nrt-rjtf7700060-NRT
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1676846665.485254,VS0,VE1
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 224acc2983ac63337758858b6d8a36f3ada14784
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;Look up the chmod program (e.g. use man chmod).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;[yuzhencode@VM-16-4-centos missing]$ man chmod
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;9&#34;&gt;
+&lt;li&gt;Use chmod to make it possible to run the command ./semester rather than having to type sh semester. How does your shell know that the file is supposed to be interpreted using sh? See this page on the shebang line for more information.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;[yuzhencode@VM-16-4-centos missing]$ chmod +x semester 
+[yuzhencode@VM-16-4-centos missing]$ ls -l
+total 4
+-rwxrwxr-x 1 yuzhencode yuzhencode 31 Feb 20 06:38 semester
+[yuzhencode@VM-16-4-centos missing]$ ./semester 
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 7987
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Sun, 12 Feb 2023 13:48:47 GMT
+Access-Control-Allow-Origin: *
+ETag: &amp;quot;63e8ee3f-1f33&amp;quot;
+expires: Thu, 16 Feb 2023 15:14:55 GMT
+Cache-Control: max-age=600
+x-proxy-cache: MISS
+X-GitHub-Request-Id: BD92:11EC:CC0C5:1144EC:63EE4617
+Accept-Ranges: bytes
+Date: Sun, 17 Feb 2023 22:42:33 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-nrt-rjtf7700073-NRT
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1676846554.748478,VS0,VE222
+Vary: Accept-Encoding
+X-Fastly-Request-ID: fa9c19ae05a08a1a94ddd4ef81131b157124d936
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;10&#34;&gt;
+&lt;li&gt;Use | and &amp;gt; to write the “last modified” date output by semester into a file called last-modified.txt in your home directory.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;[yuzhencode@VM-16-4-centos missing]$ ./semester | grep --ignore-case last-modified &amp;gt; ~/last-modified.txt
+[yuzhencode@VM-16-4-centos missing]$ cat ~/last-modified.txt 
+Last-Modified: Sun, 12 Feb 2023 13:48:47 GMT
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;11&#34;&gt;
+&lt;li&gt;Write a command that reads out your laptop battery’s power level or your desktop machine’s CPU temperature from /sys. Note: if you’re a macOS user, your OS doesn’t have sysfs, so you can skip this exercise.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;C:\WINDOWS\system32&amp;gt;wmic /namespace:\\root\wmi PATH MSAcpi_ThermalZoneTemperature get CurrentTemperature
+CurrentTemperature
+3212
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>01 k-Sum problem solution</title>
@@ -189,22 +345,6 @@ Decide: Are there k (distinct) numbers in the input which sum to Target integer?
 &lt;p&gt;Time complexity: $$O(n^{k-1})$$
 Space complexity:  $$O(1)$$&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Test Artical2</title>
-      <link>/post/writing-technical-content/</link>
-      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>/post/writing-technical-content/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test Artical</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
-      <description></description>
     </item>
     
   </channel>
