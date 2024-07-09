@@ -2,21 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Advanced on Yuzhen Blog</title>
-    <link>https://yuzhencode.github.io/tags/advanced/</link>
+    <link>http://localhost:1313/tags/advanced/</link>
     <description>Recent content in Advanced on Yuzhen Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Yuzhen</copyright>
-    <atom:link href="https://yuzhencode.github.io/tags/advanced/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Advanced Customisation</title>
-      <link>https://yuzhencode.github.io/docs/advanced-customisation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuzhencode.github.io/docs/advanced-customisation/</guid>
-      <description>There are many ways you can make advanced changes to Blowfish. Read below to learn more about what can be customised and the best way of achieving your desired result.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/docs/advanced-customisation/featured.svg" />
-    </item>
-    
+    <atom:link href="http://localhost:1313/tags/advanced/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blowfish Tutorial - Repo on Yuzhen Blog</title>
-    <link>https://yuzhencode.github.io/examples/repo-blowfish-tutorial/</link>
+    <link>http://localhost:1313/examples/repo-blowfish-tutorial/</link>
     <description>Recent content in Blowfish Tutorial - Repo on Yuzhen Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Yuzhen</copyright>
-    <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/examples/repo-blowfish-tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/examples/repo-blowfish-tutorial/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
