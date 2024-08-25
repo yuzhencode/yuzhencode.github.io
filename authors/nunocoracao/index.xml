@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nuno Coração on Yuzhen Blog</title>
-    <link>http://localhost:1313/authors/nunocoracao/</link>
-    <description>Recent content in Nuno Coração on Yuzhen Blog</description>
+    <title>Nunocoracao on Yuzhen Blog</title>
+    <link>http://localhost:49197/authors/nunocoracao/</link>
+    <description>Recent content in Nunocoracao on Yuzhen Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Yuzhen</copyright>
-    <atom:link href="http://localhost:1313/authors/nunocoracao/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:49197/authors/nunocoracao/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multiple Authors</title>
+      <link>http://localhost:49197/docs/multi-author/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:49197/docs/multi-author/</guid>
+      <description>Why Rebuild # Recently, I’ve been preparing for the AWS SAA exam and learning new technologies through side projects. I want to document this journey. Since all the previous blog files were on an old computer in China and the GitHub repository only had public content, I decided to restart my blog as a way to practice writing and keep records.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:49197/docs/multi-author/featured.svg" />
+    </item>
+    
   </channel>
 </rss>

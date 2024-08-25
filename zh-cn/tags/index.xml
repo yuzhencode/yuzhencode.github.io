@@ -2,88 +2,118 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>标签 on Yuzhen Blog</title>
-    <link>http://localhost:1313/zh-cn/tags/</link>
+    <link>https://yuzhencode.github.io/zh-cn/tags/</link>
     <description>Recent content in 标签 on Yuzhen Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 Yuzhen</copyright>
-    <atom:link href="http://localhost:1313/zh-cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yuzhencode.github.io/zh-cn/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docs</title>
-      <link>http://localhost:1313/zh-cn/tags/docs/</link>
+      <link>https://yuzhencode.github.io/zh-cn/tags/docs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh-cn/tags/docs/</guid>
+      <guid>https://yuzhencode.github.io/zh-cn/tags/docs/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Lead</title>
-      <link>http://localhost:1313/zh-cn/tags/lead/</link>
+      <link>https://yuzhencode.github.io/zh-cn/tags/lead/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh-cn/tags/lead/</guid>
+      <guid>https://yuzhencode.github.io/zh-cn/tags/lead/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Mermaid</title>
-      <link>http://localhost:1313/zh-cn/tags/mermaid/</link>
+      <link>https://yuzhencode.github.io/zh-cn/tags/mermaid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh-cn/tags/mermaid/</guid>
+      <guid>https://yuzhencode.github.io/zh-cn/tags/mermaid/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Yuzhen</title>
-      <link>http://localhost:1313/zh-cn/tags/yuzhen/</link>
+      <link>https://yuzhencode.github.io/zh-cn/tags/yuzhen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh-cn/tags/yuzhen/</guid>
+      <guid>https://yuzhencode.github.io/zh-cn/tags/yuzhen/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>高级</title>
-      <link>http://localhost:1313/zh-cn/tags/advanced/</link>
+      <link>https://yuzhencode.github.io/zh-cn/tags/advanced/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh-cn/tags/advanced/</guid>
+      <guid>https://yuzhencode.github.io/zh-cn/tags/advanced/</guid>
       <description>这是高级标记。类似其他 Blowfish 中的其他列表页面，你可以在分类列表页</description>
       
     </item>
     
     <item>
       <title>关于我</title>
-      <link>http://localhost:1313/zh-cn/tags/%E5%85%B3%E4%BA%8E%E6%88%91/</link>
+      <link>https://yuzhencode.github.io/zh-cn/tags/%E5%85%B3%E4%BA%8E%E6%88%91/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh-cn/tags/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
+      <guid>https://yuzhencode.github.io/zh-cn/tags/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>简码</title>
-      <link>http://localhost:1313/zh-cn/tags/%E7%AE%80%E7%A0%81/</link>
+      <link>https://yuzhencode.github.io/zh-cn/tags/%E7%AE%80%E7%A0%81/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh-cn/tags/%E7%AE%80%E7%A0%81/</guid>
+      <guid>https://yuzhencode.github.io/zh-cn/tags/%E7%AE%80%E7%A0%81/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>配置</title>
+      <link>https://yuzhencode.github.io/zh-cn/tags/%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/tags/%E9%85%8D%E7%BD%AE/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>图标</title>
-      <link>http://localhost:1313/zh-cn/tags/%E5%9B%BE%E6%A0%87/</link>
+      <link>https://yuzhencode.github.io/zh-cn/tags/%E5%9B%BE%E6%A0%87/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh-cn/tags/%E5%9B%BE%E6%A0%87/</guid>
+      <guid>https://yuzhencode.github.io/zh-cn/tags/%E5%9B%BE%E6%A0%87/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>文档</title>
+      <link>https://yuzhencode.github.io/zh-cn/tags/%E6%96%87%E6%A1%A3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/tags/%E6%96%87%E6%A1%A3/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>作者</title>
+      <link>https://yuzhencode.github.io/zh-cn/tags/%E4%BD%9C%E8%80%85/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/tags/%E4%BD%9C%E8%80%85/</guid>
       <description></description>
       
     </item>

@@ -2,40 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yuzhen Blog</title>
-    <link>http://localhost:1313/zh-cn/</link>
+    <link>https://yuzhencode.github.io/zh-cn/</link>
     <description>Recent content on Yuzhen Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 Yuzhen</copyright>
-    <atom:link href="http://localhost:1313/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yuzhencode.github.io/zh-cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>简码</title>
-      <link>http://localhost:1313/zh-cn/docs/shortcodes/</link>
+      <title>搭建个人博客——1. 安装hugo,配置Blowfish主题</title>
+      <link>https://yuzhencode.github.io/zh-cn/docs/hugo_blog_setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh-cn/docs/shortcodes/</guid>
-      <description>除了所有默认 Hugo 简码 之外，Blowfish 还添加了一些额外的功</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/shortcodes/featured.svg" />
-    </item>
-    
-    <item>
-      <title>简码</title>
-      <link>http://localhost:1313/zh-cn/docs/shortcodes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/zh-cn/docs/shortcodes/</guid>
-      <description>除了所有默认 Hugo 简码 之外，Blowfish 还添加了一些额外的功</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/shortcodes/featured.svg" />
+      <guid>https://yuzhencode.github.io/zh-cn/docs/hugo_blog_setup/</guid>
+      <description>为什么重建 # 最近在备考AWS SAA和通过开发side proj</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/docs/hugo_blog_setup/featured.svg" />
     </item>
     
     <item>
       <title>关于我</title>
-      <link>http://localhost:1313/zh-cn/docs/%E5%85%B3%E4%BA%8E%E6%88%91/</link>
+      <link>https://yuzhencode.github.io/zh-cn/docs/%E5%85%B3%E4%BA%8E%E6%88%91/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh-cn/docs/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
+      <guid>https://yuzhencode.github.io/zh-cn/docs/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
       <description>简介 # 于伯明翰大学计算机科学专业硕士毕业。非常幸运地在Pet</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/about-me/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/docs/about-me/featured.svg" />
+    </item>
+    
+    <item>
+      <title>简码</title>
+      <link>https://yuzhencode.github.io/zh-cn/docs/shortcodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/docs/shortcodes/</guid>
+      <description>除了所有默认 Hugo 简码 之外，Blowfish 还添加了一些额外的功</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/docs/shortcodes/featured.svg" />
+    </item>
+    
+    <item>
+      <title>简码</title>
+      <link>https://yuzhencode.github.io/zh-cn/docs/shortcodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/docs/shortcodes/</guid>
+      <description>除了所有默认 Hugo 简码 之外，Blowfish 还添加了一些额外的功</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/docs/shortcodes/featured.svg" />
     </item>
     
   </channel>

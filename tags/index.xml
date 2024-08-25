@@ -2,108 +2,128 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yuzhen Blog</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://yuzhencode.github.io/tags/</link>
     <description>Recent content in Tags on Yuzhen Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Yuzhen</copyright>
-    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown</title>
-      <link>http://localhost:1313/tags/markdown/</link>
+      <link>https://yuzhencode.github.io/tags/markdown/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/markdown/</guid>
+      <guid>https://yuzhencode.github.io/tags/markdown/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Syntax</title>
-      <link>http://localhost:1313/tags/syntax/</link>
+      <link>https://yuzhencode.github.io/tags/syntax/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/syntax/</guid>
+      <guid>https://yuzhencode.github.io/tags/syntax/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Aboutme</title>
-      <link>http://localhost:1313/tags/aboutme/</link>
+      <link>https://yuzhencode.github.io/tags/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/aboutme/</guid>
+      <guid>https://yuzhencode.github.io/tags/aboutme/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Advanced</title>
-      <link>http://localhost:1313/tags/advanced/</link>
+      <link>https://yuzhencode.github.io/tags/advanced/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/advanced/</guid>
+      <guid>https://yuzhencode.github.io/tags/advanced/</guid>
       <description>This is the advanced tag. Just like other listing pages in Blowfish, you can add custom content to individual taxonomy terms and it will be displayed at the top of the term listing.</description>
       
     </item>
     
     <item>
-      <title>Docs</title>
-      <link>http://localhost:1313/tags/docs/</link>
+      <title>Authors</title>
+      <link>https://yuzhencode.github.io/tags/authors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/docs/</guid>
+      <guid>https://yuzhencode.github.io/tags/authors/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Config</title>
+      <link>https://yuzhencode.github.io/tags/config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/tags/config/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Docs</title>
+      <link>https://yuzhencode.github.io/tags/docs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/tags/docs/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Icon</title>
-      <link>http://localhost:1313/tags/icon/</link>
+      <link>https://yuzhencode.github.io/tags/icon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/icon/</guid>
+      <guid>https://yuzhencode.github.io/tags/icon/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Lead</title>
-      <link>http://localhost:1313/tags/lead/</link>
+      <link>https://yuzhencode.github.io/tags/lead/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/lead/</guid>
+      <guid>https://yuzhencode.github.io/tags/lead/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Mermaid</title>
-      <link>http://localhost:1313/tags/mermaid/</link>
+      <link>https://yuzhencode.github.io/tags/mermaid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/mermaid/</guid>
+      <guid>https://yuzhencode.github.io/tags/mermaid/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Shortcodes</title>
-      <link>http://localhost:1313/tags/shortcodes/</link>
+      <link>https://yuzhencode.github.io/tags/shortcodes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/shortcodes/</guid>
+      <guid>https://yuzhencode.github.io/tags/shortcodes/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Yuzhen</title>
-      <link>http://localhost:1313/tags/yuzhen/</link>
+      <link>https://yuzhencode.github.io/tags/yuzhen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/yuzhen/</guid>
+      <guid>https://yuzhencode.github.io/tags/yuzhen/</guid>
       <description></description>
       
     </item>

@@ -3,265 +3,285 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/docs/shortcodes/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/docs/shortcodes/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/docs/shortcodes/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/docs/shortcodes/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/docs/shortcodes/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/docs/shortcodes/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://yuzhencode.github.io/</loc>
     <lastmod>2024-06-27T17:16:22+01:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/"
+      href="https://yuzhencode.github.io/zh-cn/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/"
+      href="https://yuzhencode.github.io/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://yuzhencode.github.io/blog/</loc>
     <lastmod>2024-06-27T17:16:22+01:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/blog/helloworld/</loc>
+    <loc>https://yuzhencode.github.io/blog/helloworld/</loc>
     <lastmod>2024-06-27T17:16:22+01:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>https://yuzhencode.github.io/tags/markdown/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/blog/markdown-syntax/</loc>
+    <loc>https://yuzhencode.github.io/blog/markdown-syntax/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/syntax/</loc>
+    <loc>https://yuzhencode.github.io/tags/syntax/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://yuzhencode.github.io/tags/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/tags/"
+      href="https://yuzhencode.github.io/zh-cn/tags/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/tags/"
+      href="https://yuzhencode.github.io/tags/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/docs/about-me/</loc>
+    <loc>https://yuzhencode.github.io/docs/about-me/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/docs/%E5%85%B3%E4%BA%8E%E6%88%91/"
+      href="https://yuzhencode.github.io/zh-cn/docs/%E5%85%B3%E4%BA%8E%E6%88%91/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/docs/about-me/"
+      href="https://yuzhencode.github.io/docs/about-me/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/tags/aboutme/</loc>
+    <loc>https://yuzhencode.github.io/tags/aboutme/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/advanced/</loc>
+    <loc>https://yuzhencode.github.io/tags/advanced/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/tags/advanced/"
+      href="https://yuzhencode.github.io/zh-cn/tags/advanced/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/tags/advanced/"
+      href="https://yuzhencode.github.io/tags/advanced/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>https://yuzhencode.github.io/tags/authors/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/authors/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/authors/"
+      href="https://yuzhencode.github.io/zh-cn/authors/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/authors/"
+      href="https://yuzhencode.github.io/authors/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://yuzhencode.github.io/categories/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/categories/"
+      href="https://yuzhencode.github.io/zh-cn/categories/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/categories/"
+      href="https://yuzhencode.github.io/categories/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/tags/docs/</loc>
+    <loc>https://yuzhencode.github.io/tags/config/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/docs/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/tags/docs/"
+      href="https://yuzhencode.github.io/zh-cn/tags/docs/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/tags/docs/"
+      href="https://yuzhencode.github.io/tags/docs/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/series/documentation/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/docs/</loc>
+    <loc>https://yuzhencode.github.io/docs/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/docs/"
+      href="https://yuzhencode.github.io/zh-cn/docs/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/docs/"
+      href="https://yuzhencode.github.io/docs/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/tags/icon/</loc>
+    <loc>https://yuzhencode.github.io/tags/icon/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/lead/</loc>
+    <loc>https://yuzhencode.github.io/tags/lead/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/tags/lead/"
+      href="https://yuzhencode.github.io/zh-cn/tags/lead/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/tags/lead/"
+      href="https://yuzhencode.github.io/tags/lead/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/tags/mermaid/</loc>
+    <loc>https://yuzhencode.github.io/tags/mermaid/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/tags/mermaid/"
+      href="https://yuzhencode.github.io/zh-cn/tags/mermaid/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/tags/mermaid/"
+      href="https://yuzhencode.github.io/tags/mermaid/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://yuzhencode.github.io/docs/shortcodes/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/series/"
+      href="https://yuzhencode.github.io/zh-cn/docs/shortcodes/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/series/"
+      href="https://yuzhencode.github.io/docs/shortcodes/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/tags/shortcodes/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/yuzhen/</loc>
+    <loc>https://yuzhencode.github.io/series/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/tags/yuzhen/"
+      href="https://yuzhencode.github.io/zh-cn/series/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/tags/yuzhen/"
+      href="https://yuzhencode.github.io/series/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/docs/hugo_blog_setup/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/docs/hugo_blog_setup/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/docs/hugo_blog_setup/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/shortcodes/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/docs/shortcodes/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/docs/shortcodes/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/docs/shortcodes/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/yuzhen/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/tags/yuzhen/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/tags/yuzhen/"
     />
   </url>
 </urlset>
