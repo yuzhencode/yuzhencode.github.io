@@ -120,6 +120,21 @@
     />
   </url>
   <url>
+    <loc>https://yuzhencode.github.io/docs/hugo_blog_setup/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/docs/hugo_blog_setup/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/docs/hugo_blog_setup/"
+    />
+  </url>
+  <url>
     <loc>https://yuzhencode.github.io/categories/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -232,21 +247,6 @@
       rel="alternate"
       hreflang="en"
       href="https://yuzhencode.github.io/series/"
-    />
-  </url>
-  <url>
-    <loc>https://yuzhencode.github.io/docs/hugo_blog_setup/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://yuzhencode.github.io/zh-cn/docs/hugo_blog_setup/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://yuzhencode.github.io/docs/hugo_blog_setup/"
     />
   </url>
   <url>
