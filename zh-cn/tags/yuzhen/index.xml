@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 Yuzhen</copyright>
-    <atom:link href="https://yuzhencode.github.io/zh-cn/tags/yuzhen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/zh-cn/tags/yuzhen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>搭建个人博客——2. Blowfish主题自定义</title>
+      <link>https://yuzhencode.github.io/zh-cn/tech/blowfish_customization/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/tech/blowfish_customization/</guid>
+      <description>1. 站点配置 # 上文拷贝 exampleSite 后，站点文件夹结构变成： my-site/ ├── archetypes/ │ └</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/blowfish_customization/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>搭建个人博客——1. 安装hugo, Git, 配置Blowfish主题</title>
+      <link>https://yuzhencode.github.io/zh-cn/tech/hugo_blog_setup/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/tech/hugo_blog_setup/</guid>
+      <description>为什么重建 # 最近在备考AWS SAA和通过开发side proj</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/hugo_blog_setup/featured.jpg" />
+    </item>
+    
     <item>
       <title>关于我</title>
       <link>https://yuzhencode.github.io/zh-cn/docs/%E5%85%B3%E4%BA%8E%E6%88%91/</link>

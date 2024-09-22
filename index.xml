@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Yuzhen</copyright>
-    <atom:link href="https://yuzhencode.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build a Personal Blog—2. Customizing the Blowfish Theme</title>
+      <link>https://yuzhencode.github.io/tech/blowfish_customization/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/tech/blowfish_customization/</guid>
+      <description>1. Site Configuration # After copying the exampleSite folder, the site directory structure becomes as follows: my-site/ ├── archetypes/ │ └── default.md ├── assets/</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/blowfish_customization/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Build a Personal Blog—1. Install Hugo, Git, Configure the Blowfish Theme</title>
+      <link>https://yuzhencode.github.io/tech/hugo_blog_setup/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/tech/hugo_blog_setup/</guid>
+      <description>Why Rebuild # Recently, I’ve been preparing for the AWS SAA exam and learning new technologies through side projects. I want to document this journey. Since all the previous blog files were on an old computer in China and the GitHub repository only had public content, I decided to restart my blog as a way to practice writing and keep records.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/hugo_blog_setup/featured.jpg" />
+    </item>
+    
     <item>
       <title>About Me</title>
       <link>https://yuzhencode.github.io/docs/about-me/</link>
@@ -16,26 +36,6 @@
       <guid>https://yuzhencode.github.io/docs/about-me/</guid>
       <description>Profile # I graduated as a master student with distinction from the University of Birmingham in Computer Science. I am very fortunate to have been supervised by Dr. Peter Hancox for my thesis on Fine-grained Sentiment Analysis of Yelp-review and Exploring Multi-class Imbalanced Data.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/docs/about-me/featured.svg" />
-    </item>
-    
-    <item>
-      <title>Build a Personal Blog—1. Install Hugo, Git, Configure the Blowfish Theme</title>
-      <link>https://yuzhencode.github.io/tech/hugo_blog_setup/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuzhencode.github.io/tech/hugo_blog_setup/</guid>
-      <description>Why Rebuild # Recently, I’ve been preparing for the AWS SAA exam and learning new technologies through side projects. I want to document this journey. Since all the previous blog files were on an old computer in China and the GitHub repository only had public content, I decided to restart my blog as a way to practice writing and keep records.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/hugo_blog_setup/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Build a Personal Blog—2. Customizing the Blowfish Theme</title>
-      <link>https://yuzhencode.github.io/tech/blowfish_customization/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuzhencode.github.io/tech/blowfish_customization/</guid>
-      <description>1. Site Configuration # After copying the exampleSite folder, the site directory structure becomes as follows: my-site/ ├── archetypes/ │ └── default.md ├── assets/</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/blowfish_customization/featured.jpg" />
     </item>
     
   </channel>
