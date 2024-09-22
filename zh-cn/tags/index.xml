@@ -9,36 +9,6 @@
     <copyright>© 2024 Yuzhen</copyright>
     <atom:link href="https://yuzhencode.github.io/zh-cn/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Docs</title>
-      <link>https://yuzhencode.github.io/zh-cn/tags/docs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuzhencode.github.io/zh-cn/tags/docs/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Lead</title>
-      <link>https://yuzhencode.github.io/zh-cn/tags/lead/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuzhencode.github.io/zh-cn/tags/lead/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Mermaid</title>
-      <link>https://yuzhencode.github.io/zh-cn/tags/mermaid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuzhencode.github.io/zh-cn/tags/mermaid/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Yuzhen</title>
       <link>https://yuzhencode.github.io/zh-cn/tags/yuzhen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -69,31 +39,11 @@
     </item>
     
     <item>
-      <title>简码</title>
-      <link>https://yuzhencode.github.io/zh-cn/tags/%E7%AE%80%E7%A0%81/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuzhencode.github.io/zh-cn/tags/%E7%AE%80%E7%A0%81/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>配置</title>
       <link>https://yuzhencode.github.io/zh-cn/tags/%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yuzhencode.github.io/zh-cn/tags/%E9%85%8D%E7%BD%AE/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>图标</title>
-      <link>https://yuzhencode.github.io/zh-cn/tags/%E5%9B%BE%E6%A0%87/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuzhencode.github.io/zh-cn/tags/%E5%9B%BE%E6%A0%87/</guid>
       <description></description>
       
     </item>

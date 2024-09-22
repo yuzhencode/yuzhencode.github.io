@@ -10,33 +10,22 @@
     <atom:link href="https://yuzhencode.github.io/tags/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build a Personal Blog—1. Install Hugo, Git, Configure the Blowfish Theme</title>
-      <link>https://yuzhencode.github.io/docs/hugo_blog_setup/</link>
+      <link>https://yuzhencode.github.io/tech/hugo_blog_setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yuzhencode.github.io/docs/hugo_blog_setup/</guid>
+      <guid>https://yuzhencode.github.io/tech/hugo_blog_setup/</guid>
       <description>Why Rebuild # Recently, I’ve been preparing for the AWS SAA exam and learning new technologies through side projects. I want to document this journey. Since all the previous blog files were on an old computer in China and the GitHub repository only had public content, I decided to restart my blog as a way to practice writing and keep records.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/docs/hugo_blog_setup/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/hugo_blog_setup/featured.jpg" />
     </item>
     
     <item>
-      <title>projects</title>
-      <link>https://yuzhencode.github.io/docs/shortcodes/</link>
+      <title>Build a Personal Blog—2. Customizing the Blowfish Theme</title>
+      <link>https://yuzhencode.github.io/tech/blowfish_customization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yuzhencode.github.io/docs/shortcodes/</guid>
-      <description>Alert # alert outputs its contents as a stylised message box within your article. It&amp;rsquo;s useful for drawing attention to important information that you don&amp;rsquo;t want the reader to miss.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/docs/shortcodes/featured.svg" />
-    </item>
-    
-    <item>
-      <title>Shortcodes</title>
-      <link>https://yuzhencode.github.io/docs/shortcodes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuzhencode.github.io/docs/shortcodes/</guid>
-      <description>In addition to all the default Hugo shortcodes, Blowfish adds a few extras for additional functionality.
-Alert # alert outputs its contents as a stylised message box within your article. It&amp;rsquo;s useful for drawing attention to important information that you don&amp;rsquo;t want the reader to miss.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/docs/shortcodes/featured.svg" />
+      <guid>https://yuzhencode.github.io/tech/blowfish_customization/</guid>
+      <description>1. Site Configuration # After copying the exampleSite folder, the site directory structure becomes as follows: my-site/ ├── archetypes/ │ └── default.md ├── assets/</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/blowfish_customization/featured.jpg" />
     </item>
     
   </channel>
