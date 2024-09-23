@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>文档 on Yuzhen Blog</title>
+    <link>http://localhost:1313/tags/%E6%96%87%E6%A1%A3/</link>
+    <description>Recent content in 文档 on Yuzhen Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Yuzhen</copyright>
+    <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%96%87%E6%A1%A3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>搭建个人博客——3.GitHub Pages 发布博客</title>
+      <link>http://localhost:1313/tech/publishing_with_github_pages/</link>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tech/publishing_with_github_pages/</guid>
+      <description>我们希望 Hugo 生成的静态网站能通过 GitHub Pages 服务进行托管，而无需自己维</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/publishing_with_github_pages/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

@@ -7,6 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Yuzhen</copyright>
-    <atom:link href="http://localhost:1313/tags/template/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Dec 1987 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/template/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recipe Template</title>
+      <link>http://localhost:1313/tech/publishing_with_github_pages/</link>
+      <pubDate>Tue, 22 Dec 1987 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tech/publishing_with_github_pages/</guid>
+      <description>Thank you for wanting to contribute to Blowfish&amp;rsquo;s community.
+How to start? # This is a template article that will explain how to create a new article for Blowfish&amp;rsquo;s guide section.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/publishing_with_github_pages/featured.jpg" />
+    </item>
+    
   </channel>
 </rss>

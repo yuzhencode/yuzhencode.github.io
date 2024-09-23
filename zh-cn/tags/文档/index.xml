@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 Yuzhen</copyright>
-    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/zh-cn/tags/%E6%96%87%E6%A1%A3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/zh-cn/tags/%E6%96%87%E6%A1%A3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>搭建个人博客——3.GitHub Pages 发布博客</title>
+      <link>https://yuzhencode.github.io/zh-cn/tech/publishing_with_github_pages/</link>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/tech/publishing_with_github_pages/</guid>
+      <description>我们希望 Hugo 生成的静态网站能通过 GitHub Pages 服务进行托管，而无需自己维</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/publishing_with_github_pages/featured.jpg" />
+    </item>
+    
     <item>
       <title>搭建个人博客——2. Blowfish主题自定义</title>
       <link>https://yuzhencode.github.io/zh-cn/tech/blowfish_customization/</link>
