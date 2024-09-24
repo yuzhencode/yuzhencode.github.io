@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 Yuzhen</copyright>
-    <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>问题解决——本地提交至GitHub仓库，贡献不显示</title>
+      <link>https://yuzhencode.github.io/zh-cn/tech/github_contribution_issues/</link>
+      <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/tech/github_contribution_issues/</guid>
+      <description>问题描述: # 这几天一直在用github来配置和更新博客，但是</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/github_contribution_issues/featured.jpg" />
+    </item>
+    
     <item>
       <title>搭建个人博客——3.GitHub Pages 发布博客</title>
       <link>https://yuzhencode.github.io/zh-cn/tech/publishing_with_github_pages/</link>
