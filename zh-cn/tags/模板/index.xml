@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>模板 on Yuzhen Blog</title>
-    <link>http://localhost:1313/zh-cn/tags/%E6%A8%A1%E6%9D%BF/</link>
+    <link>http://localhost:57294/zh-cn/tags/%E6%A8%A1%E6%9D%BF/</link>
     <description>Recent content in 模板 on Yuzhen Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 Yuzhen</copyright>
-    <lastBuildDate>Tue, 22 Dec 1987 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/tags/%E6%A8%A1%E6%9D%BF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Dec 1987 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:57294/zh-cn/tags/%E6%A8%A1%E6%9D%BF/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>搭建个人博客——3.GitHub Pages 发布博客</title>
-      <link>http://localhost:1313/zh-cn/tech/publishing_with_github_pages/</link>
+      <title>使用指南模板</title>
+      <link>http://localhost:57294/zh-cn/life/fungi_14sep2024/</link>
       <pubDate>Tue, 22 Dec 1987 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh-cn/tech/publishing_with_github_pages/</guid>
-      <description>搭建个人博客——3.GitHub Pages 发布博客 # 我们希望 Hugo 生成的</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/publishing_with_github_pages/featured.jpg" />
+      <guid>http://localhost:57294/zh-cn/life/fungi_14sep2024/</guid>
+      <description>title: &amp;ldquo;Fungus found on 14 Sep 2024&amp;rdquo; date: 2024-09-25 draft: false description: &amp;quot;&amp;quot; tags: [&amp;ldquo;mushroom&amp;rdquo;, &amp;ldquo;life&amp;rdquo;] # 1. Fleecyfoot Conecap # 经谷歌识图，应该为</description>
+      
     </item>
     
   </channel>

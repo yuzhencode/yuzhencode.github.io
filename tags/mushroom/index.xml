@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mushroom on Yuzhen Blog</title>
+    <link>https://yuzhencode.github.io/tags/mushroom/</link>
+    <description>Recent content in Mushroom on Yuzhen Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Yuzhen</copyright>
+    <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/tags/mushroom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🍄Fungus found on 14 Sep 2024</title>
+      <link>https://yuzhencode.github.io/life/fungi_14sep2024/</link>
+      <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/life/fungi_14sep2024/</guid>
+      <description>1. Fleecyfoot Conecap🍄 # It may be Fleecyfoot Conecap. It contains the psychedelic alkaloids psilocybin and psilocin. https://www.gbif.org/species/2529949
+2. Grey Knight🍄 # It may be Grey Knight - Tricholoma terreum.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/life/fungi_14sep2024/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

@@ -3,6 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://yuzhencode.github.io/life/fungi_14sep2024/</loc>
+    <lastmod>2024-09-24T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/life/fungi_14sep2024/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/life/fungi_14sep2024/"
+    />
+  </url>
+  <url>
     <loc>https://yuzhencode.github.io/tags/bug/</loc>
     <lastmod>2024-09-24T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -23,6 +39,34 @@
       hreflang="en"
       href="https://yuzhencode.github.io/tags/git/"
     />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/life/</loc>
+    <lastmod>2024-09-24T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/life/</loc>
+    <lastmod>2024-09-24T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/life/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/life/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/mushroom/</loc>
+    <lastmod>2024-09-24T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://yuzhencode.github.io/tech/github_contribution_issues/</loc>
@@ -242,21 +286,6 @@
       rel="alternate"
       hreflang="en"
       href="https://yuzhencode.github.io/docs/"
-    />
-  </url>
-  <url>
-    <loc>https://yuzhencode.github.io/life/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://yuzhencode.github.io/zh-cn/life/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://yuzhencode.github.io/life/"
     />
   </url>
   <url>
