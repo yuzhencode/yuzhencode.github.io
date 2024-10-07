@@ -3,6 +3,54 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://yuzhencode.github.io/zh-cn/tech/install-hugo-git/</loc>
+    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/tech/install-hugo-git/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/tech/install-hugo-git/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/zh-cn/tech/custom-theme/</loc>
+    <lastmod>2024-09-20T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/tech/custom-theme/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/tech/custom-theme/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/zh-cn/tech/deploy-github-pages/</loc>
+    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/tech/deploy-github-pages/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/tech/deploy-github-pages/"
+    />
+  </url>
+  <url>
     <loc>https://yuzhencode.github.io/zh-cn/tech/custom-domain/</loc>
     <lastmod>2024-10-07T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -253,58 +301,10 @@
     />
   </url>
   <url>
-    <loc>https://yuzhencode.github.io/zh-cn/tech/publishing_with_github_pages/</loc>
-    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://yuzhencode.github.io/tech/publishing_with_github_pages/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://yuzhencode.github.io/zh-cn/tech/publishing_with_github_pages/"
-    />
-  </url>
-  <url>
     <loc>https://yuzhencode.github.io/zh-cn/tags/%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://yuzhencode.github.io/zh-cn/tech/blowfish_customization/</loc>
-    <lastmod>2024-09-20T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://yuzhencode.github.io/tech/blowfish_customization/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://yuzhencode.github.io/zh-cn/tech/blowfish_customization/"
-    />
-  </url>
-  <url>
-    <loc>https://yuzhencode.github.io/zh-cn/tech/hugo_blog_setup/</loc>
-    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://yuzhencode.github.io/tech/hugo_blog_setup/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://yuzhencode.github.io/zh-cn/tech/hugo_blog_setup/"
-    />
   </url>
   <url>
     <loc>https://yuzhencode.github.io/zh-cn/authors/</loc>

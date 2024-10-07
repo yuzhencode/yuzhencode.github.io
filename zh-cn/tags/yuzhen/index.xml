@@ -9,6 +9,36 @@
     <copyright>© 2024 Yuzhen</copyright>
     <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/zh-cn/tags/yuzhen/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>搭建个人博客——1. 安装hugo, Git, 配置Blowfish主题</title>
+      <link>https://yuzhencode.github.io/zh-cn/tech/install-hugo-git/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/tech/install-hugo-git/</guid>
+      <description>为什么重建 # 最近在备考AWS SAA和通过开发side proj</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/install-hugo-git/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>搭建个人博客——2. Blowfish主题自定义</title>
+      <link>https://yuzhencode.github.io/zh-cn/tech/custom-theme/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/tech/custom-theme/</guid>
+      <description>1. 站点配置 # 上文拷贝 exampleSite 后，站点文件夹结构变成： my-site/ ├── archetypes/ │ └</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/custom-theme/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>搭建个人博客——3.GitHub Pages 发布博客</title>
+      <link>https://yuzhencode.github.io/zh-cn/tech/deploy-github-pages/</link>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/tech/deploy-github-pages/</guid>
+      <description>我们希望 Hugo 生成的静态网站能通过 GitHub Pages 服务进行托管，而无需自己维</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/deploy-github-pages/featured.jpg" />
+    </item>
+    
+    <item>
       <title>搭建个人博客——4. GitHub Pages 绑定个人域名</title>
       <link>https://yuzhencode.github.io/zh-cn/tech/custom-domain/</link>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
@@ -26,36 +56,6 @@
       <guid>https://yuzhencode.github.io/zh-cn/tech/github_contribution_issues/</guid>
       <description>问题描述: # 这几天一直在用github来配置和更新博客，但是</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/github_contribution_issues/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>搭建个人博客——3.GitHub Pages 发布博客</title>
-      <link>https://yuzhencode.github.io/zh-cn/tech/publishing_with_github_pages/</link>
-      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuzhencode.github.io/zh-cn/tech/publishing_with_github_pages/</guid>
-      <description>我们希望 Hugo 生成的静态网站能通过 GitHub Pages 服务进行托管，而无需自己维</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/publishing_with_github_pages/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>搭建个人博客——2. Blowfish主题自定义</title>
-      <link>https://yuzhencode.github.io/zh-cn/tech/blowfish_customization/</link>
-      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuzhencode.github.io/zh-cn/tech/blowfish_customization/</guid>
-      <description>1. 站点配置 # 上文拷贝 exampleSite 后，站点文件夹结构变成： my-site/ ├── archetypes/ │ └</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/blowfish_customization/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>搭建个人博客——1. 安装hugo, Git, 配置Blowfish主题</title>
-      <link>https://yuzhencode.github.io/zh-cn/tech/hugo_blog_setup/</link>
-      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuzhencode.github.io/zh-cn/tech/hugo_blog_setup/</guid>
-      <description>为什么重建 # 最近在备考AWS SAA和通过开发side proj</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/hugo_blog_setup/featured.jpg" />
     </item>
     
     <item>
