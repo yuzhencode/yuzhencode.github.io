@@ -3,6 +3,142 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://yuzhencode.github.io/tech/custom-domain/</loc>
+    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/tech/custom-domain/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/tech/custom-domain/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/blog-setup/</loc>
+    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/custom-domain/</loc>
+    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/documentation/</loc>
+    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/github-pages/</loc>
+    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/tags/github-pages/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/tags/github-pages/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/series/personal-blog-documentation/</loc>
+    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/seo/</loc>
+    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/tags/seo/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/tags/seo/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/series/</loc>
+    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/series/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/series/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/</loc>
+    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/tags/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/tags/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tech/</loc>
+    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/tech/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/tech/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/</loc>
+    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/"
+    />
+  </url>
+  <url>
     <loc>https://yuzhencode.github.io/life/fungi_05oct2024/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -45,38 +181,6 @@
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://yuzhencode.github.io/tags/</loc>
-    <lastmod>2024-10-06T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://yuzhencode.github.io/zh-cn/tags/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://yuzhencode.github.io/tags/"
-    />
-  </url>
-  <url>
-    <loc>https://yuzhencode.github.io/</loc>
-    <lastmod>2024-10-06T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://yuzhencode.github.io/zh-cn/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://yuzhencode.github.io/"
-    />
   </url>
   <url>
     <loc>https://yuzhencode.github.io/life/fungi_14sep2024/</loc>
@@ -130,22 +234,6 @@
       rel="alternate"
       hreflang="en"
       href="https://yuzhencode.github.io/tech/github_contribution_issues/"
-    />
-  </url>
-  <url>
-    <loc>https://yuzhencode.github.io/tech/</loc>
-    <lastmod>2024-09-24T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://yuzhencode.github.io/zh-cn/tech/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://yuzhencode.github.io/tech/"
     />
   </url>
   <url>
@@ -317,21 +405,6 @@
       rel="alternate"
       hreflang="en"
       href="https://yuzhencode.github.io/projects/"
-    />
-  </url>
-  <url>
-    <loc>https://yuzhencode.github.io/series/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://yuzhencode.github.io/zh-cn/series/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://yuzhencode.github.io/series/"
     />
   </url>
 </urlset>

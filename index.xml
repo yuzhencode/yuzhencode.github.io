@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Yuzhen</copyright>
-    <lastBuildDate>Sun, 06 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build a Personal Blog—4. How to Bind a Custom Domain to Your GitHub Pages Blog</title>
+      <link>https://yuzhencode.github.io/tech/custom-domain/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/tech/custom-domain/</guid>
+      <description>Deploying a personal blog on GitHub Pages has been up and running for some time now, and I have been using the default domain username.github.io. Recently, I finally purchased a 10-year domain on Tencent Cloud for less than 10 pounds.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/custom-domain/featured.jpg" />
+    </item>
+    
     <item>
       <title>🍄An Unexpected Find: Discovering a Fly Agaric by the Canal</title>
       <link>https://yuzhencode.github.io/life/fungi_05oct2024/</link>

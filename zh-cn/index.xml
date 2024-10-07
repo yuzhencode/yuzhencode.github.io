@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 Yuzhen</copyright>
-    <lastBuildDate>Sun, 06 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>搭建个人博客——4. GitHub Pages 绑定个人域名</title>
+      <link>https://yuzhencode.github.io/zh-cn/tech/custom-domain/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/tech/custom-domain/</guid>
+      <description>部署在 GitHub Pages 上的个人博客已经搭建一段时间，一直使用的是 username.github.io 默认域</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/custom-domain/featured.jpg" />
+    </item>
+    
     <item>
       <title>🍄意外之喜：在运河边发现的毒蝇伞</title>
       <link>https://yuzhencode.github.io/zh-cn/life/fungi_05oct2024/</link>
