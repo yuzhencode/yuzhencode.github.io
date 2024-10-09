@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Engineering on Yuzhen Blog</title>
+    <link>https://yuzhencode.github.io/tags/data-engineering/</link>
+    <description>Recent content in Data Engineering on Yuzhen Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Yuzhen</copyright>
+    <lastBuildDate>Wed, 09 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/tags/data-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Automatically Collect Heterogeneous Database Table Directories | Analysis of Patent CN111339081A</title>
+      <link>https://yuzhencode.github.io/projects/patent-cn111339081a-database-automation/</link>
+      <pubDate>Wed, 09 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/projects/patent-cn111339081a-database-automation/</guid>
+      <description>With the growth of enterprise data, managing and integrating multiple databases has become a significant challenge. Patent CN111339081A , titled &amp;ldquo;Automatic collection method and system for table directory of heterogeneous database&amp;rdquo;, offers a solution that automates the process of collecting table directories from disparate databases, thereby improving data management efficiency.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/projects/patent-cn111339081a-database-automation/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

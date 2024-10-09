@@ -7,6 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 Yuzhen</copyright>
-    <atom:link href="https://yuzhencode.github.io/zh-cn/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/zh-cn/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何自动收集异构数据库表目录 | 专利 CN111339081A 解析</title>
+      <link>https://yuzhencode.github.io/zh-cn/projects/patent-cn111339081a-database-automation/</link>
+      <pubDate>Wed, 09 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/projects/patent-cn111339081a-database-automation/</guid>
+      <description>随着企业数据量的增长，管理和整合多种数据库成为了一大挑战。为</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/projects/patent-cn111339081a-database-automation/featured.png" />
+    </item>
+    
   </channel>
 </rss>
