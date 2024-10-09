@@ -67,6 +67,22 @@
     />
   </url>
   <url>
+    <loc>https://yuzhencode.github.io/zh-cn/tags/etl/</loc>
+    <lastmod>2024-10-09T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/tags/etl/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/tags/etl/"
+    />
+  </url>
+  <url>
     <loc>https://yuzhencode.github.io/zh-cn/tags/yuzhen/</loc>
     <lastmod>2024-10-09T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
