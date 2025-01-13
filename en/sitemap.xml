@@ -3,6 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://yuzhencode.github.io/tech/sql/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/tech/sql/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/tech/sql/"
+    />
+  </url>
+  <url>
     <loc>https://yuzhencode.github.io/tech/install-hugo-git/</loc>
     <lastmod>2024-08-27T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -65,6 +81,166 @@
       hreflang="en"
       href="https://yuzhencode.github.io/tech/custom-domain/"
     />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/data-analysis/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/data-assessment/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/mysql/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/tags/mysql/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/tags/mysql/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/salary-analysis/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/salary-difference/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/series/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/series/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/series/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/sql/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/tags/sql/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/tags/sql/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/series/sql/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/series/sql/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/series/sql/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/sql-queries/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/sql-ranking/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/tags/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/tags/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tech/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/tech/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/tech/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/top-earners/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://yuzhencode.github.io/zh-cn/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://yuzhencode.github.io/"
+    />
+  </url>
+  <url>
+    <loc>https://yuzhencode.github.io/tags/window-functions/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://yuzhencode.github.io/tags/automation/</loc>
@@ -133,38 +309,6 @@
     />
   </url>
   <url>
-    <loc>https://yuzhencode.github.io/tags/</loc>
-    <lastmod>2024-10-09T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://yuzhencode.github.io/zh-cn/tags/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://yuzhencode.github.io/tags/"
-    />
-  </url>
-  <url>
-    <loc>https://yuzhencode.github.io/</loc>
-    <lastmod>2024-10-09T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://yuzhencode.github.io/zh-cn/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://yuzhencode.github.io/"
-    />
-  </url>
-  <url>
     <loc>https://yuzhencode.github.io/tags/blog-setup/</loc>
     <lastmod>2024-10-07T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -218,38 +362,6 @@
       rel="alternate"
       hreflang="en"
       href="https://yuzhencode.github.io/tags/seo/"
-    />
-  </url>
-  <url>
-    <loc>https://yuzhencode.github.io/series/</loc>
-    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://yuzhencode.github.io/zh-cn/series/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://yuzhencode.github.io/series/"
-    />
-  </url>
-  <url>
-    <loc>https://yuzhencode.github.io/tech/</loc>
-    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://yuzhencode.github.io/zh-cn/tech/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://yuzhencode.github.io/tech/"
     />
   </url>
   <url>
