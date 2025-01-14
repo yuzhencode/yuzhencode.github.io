@@ -10,12 +10,12 @@
     <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/zh-cn/tags/sql-%E6%8E%92%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一个关于薪资分析的SQL实战挑战</title>
-      <link>https://yuzhencode.github.io/zh-cn/tech/sql/</link>
+      <link>https://yuzhencode.github.io/zh-cn/tech/mastering-sql-window-functions-salary-analysis/</link>
       <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://yuzhencode.github.io/zh-cn/tech/sql/</guid>
+      <guid>https://yuzhencode.github.io/zh-cn/tech/mastering-sql-window-functions-salary-analysis/</guid>
       <description>最近我遇到了一个有趣的 SQL 挑战。这个场景要求使用 窗口函数 来分析</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/sql/featured.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/mastering-sql-window-functions-salary-analysis/featured.jpeg" />
     </item>
     
   </channel>

@@ -10,12 +10,12 @@
     <lastBuildDate>Tue, 22 Dec 1987 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/tags/%E6%A8%A1%E6%9D%BF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用指南模板</title>
-      <link>http://localhost:1313/zh-cn/tech/mastering-sql-window-functions-salary-analysis/</link>
+      <link>http://localhost:1313/zh-cn/tech/master-sql-window-functions/</link>
       <pubDate>Tue, 22 Dec 1987 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh-cn/tech/mastering-sql-window-functions-salary-analysis/</guid>
-      <description>最近我遇到了一个有趣的 SQL 挑战。这个场景要求使用 窗口函数 来分析</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mastering-sql-window-functions-salary-analysis/featured.jpg" />
+      <guid>http://localhost:1313/zh-cn/tech/master-sql-window-functions/</guid>
+      <description>感谢您愿意为 Blowfish 社区做出贡献。 如何开始？ # 这是一篇模板文章，将</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/master-sql-window-functions/featured.jpeg" />
     </item>
     
   </channel>

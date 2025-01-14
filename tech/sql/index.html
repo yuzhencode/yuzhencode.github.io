@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
-  data-auto-appearance="false"><head>
+  data-auto-appearance="false"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=61941&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>A SQL Practical Challenge on Salary Analysis &middot; Yuzhen(Lee)&#39;s Blog</title>
-  <meta name="title" content="A SQL Practical Challenge on Salary Analysis &middot; Yuzhen(Lee)&#39;s Blog" />
+  <title>Mastering SQL Window Functions: A Comprehensive Guide &middot; Yuzhen(Lee)&#39;s Blog</title>
+  <meta name="title" content="Mastering SQL Window Functions: A Comprehensive Guide &middot; Yuzhen(Lee)&#39;s Blog" />
   
-  <meta name="description" content="This article documents an SQL challenge I encountered during a Data Assessment, explaining how I used SQL window functions to rank salaries, calculate salary differences, and identify top earners within departments." />
-  <meta name="keywords" content="SQL, Window Functions, MySQL, Salary Analysis, Data Assessment, SQL Ranking, Salary Difference, Top Earners, Data Analysis, SQL Queries, " />
+  <meta name="description" content="Learn the essentials of SQL Window Functions, including ranking, aggregations, and time-series analysis, with practical examples for real-world data challenges." />
+  <meta name="keywords" content="SQL, Window Functions, Data Analysis, Database, Ranking, LAG, LEAD, Tutorial, " />
   
   
-  <link rel="canonical" href="https://yuzhencode.github.io/tech/sql/" />
+  <link rel="canonical" href="http://localhost:61941/tech/sql/" />
   
   
   
@@ -60,10 +60,10 @@
   
   
   
-  <meta property="og:url" content="https://yuzhencode.github.io/tech/sql/">
+  <meta property="og:url" content="http://localhost:61941/tech/sql/">
   <meta property="og:site_name" content="Yuzhen(Lee)&#39;s Blog">
-  <meta property="og:title" content="A SQL Practical Challenge on Salary Analysis">
-  <meta property="og:description" content="This article documents an SQL challenge I encountered during a Data Assessment, explaining how I used SQL window functions to rank salaries, calculate salary differences, and identify top earners within departments.">
+  <meta property="og:title" content="Mastering SQL Window Functions: A Comprehensive Guide">
+  <meta property="og:description" content="Learn the essentials of SQL Window Functions, including ranking, aggregations, and time-series analysis, with practical examples for real-world data challenges.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
@@ -71,17 +71,18 @@
     <meta property="article:modified_time" content="2025-01-13T00:00:00+00:00">
     <meta property="article:tag" content="SQL">
     <meta property="article:tag" content="Window Functions">
-    <meta property="article:tag" content="MySQL">
-    <meta property="article:tag" content="Salary Analysis">
-    <meta property="article:tag" content="Data Assessment">
-    <meta property="article:tag" content="SQL Ranking">
-    <meta property="og:image" content="https://yuzhencode.github.io/tech/sql/featured.jpeg">
+    <meta property="article:tag" content="Data Analysis">
+    <meta property="article:tag" content="Database">
+    <meta property="article:tag" content="Ranking">
+    <meta property="article:tag" content="LAG">
+    <meta property="og:image" content="http://localhost:61941/tech/sql/featured.jpeg">
+      <meta property="og:see_also" content="http://localhost:61941/tech/mastering-sql-window-functions-salary-analysis/">
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://yuzhencode.github.io/tech/sql/featured.jpeg">
-  <meta name="twitter:title" content="A SQL Practical Challenge on Salary Analysis">
-  <meta name="twitter:description" content="This article documents an SQL challenge I encountered during a Data Assessment, explaining how I used SQL window functions to rank salaries, calculate salary differences, and identify top earners within departments.">
+  <meta name="twitter:image" content="http://localhost:61941/tech/sql/featured.jpeg">
+  <meta name="twitter:title" content="Mastering SQL Window Functions: A Comprehensive Guide">
+  <meta name="twitter:description" content="Learn the essentials of SQL Window Functions, including ranking, aggregations, and time-series analysis, with practical examples for real-world data challenges.">
 
   
   <script type="application/ld+json">
@@ -89,12 +90,12 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "TECHNOLOGY",
-    "name": "A SQL Practical Challenge on Salary Analysis",
-    "headline": "A SQL Practical Challenge on Salary Analysis",
-    "description": "This article documents an SQL challenge I encountered during a Data Assessment, explaining how I used SQL window functions to rank salaries, calculate salary differences, and identify top earners within departments.",
-    "abstract": "Recently, I encountered an interesting SQL challenge. The task required using window functions to analyze employee salaries within departments. This is a powerful yet sometimes tricky feature in SQL.\nHere is the problem description and how I solved it.",
+    "name": "Mastering SQL Window Functions: A Comprehensive Guide",
+    "headline": "Mastering SQL Window Functions: A Comprehensive Guide",
+    "description": "Learn the essentials of SQL Window Functions, including ranking, aggregations, and time-series analysis, with practical examples for real-world data challenges.",
+    "abstract": "SQL window functions are one of the most powerful and flexible tools available to analysts and developers. They allow for sophisticated calculations across rows of data while preserving the individual rows, which makes them ideal for a wide range of use cases, from ranking and cumulative sums to moving averages and comparisons.",
     "inLanguage": "en",
-    "url" : "https:\/\/yuzhencode.github.io\/tech\/sql\/",
+    "url" : "http:\/\/localhost:61941\/tech\/sql\/",
     "author" : {
       "@type": "Person",
       "name": "Yuzhen(Lee)"
@@ -105,10 +106,10 @@
     
     "dateModified": "2025-01-13T00:00:00\u002b00:00",
     
-    "keywords": ["SQL","Window Functions","MySQL","Salary Analysis","Data Assessment","SQL Ranking","Salary Difference","Top Earners","Data Analysis","SQL Queries"],
+    "keywords": ["SQL","Window Functions","Data Analysis","Database","Ranking","LAG","LEAD","Tutorial"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "916"
+    "wordCount": "1577"
   }]
   </script>
 
@@ -326,20 +327,20 @@
 
 
     </span>
-    <div class="text-sm font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="A SQL Practical Challenge on Salary Analysis">EN</div>
+    <div class="text-sm font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="Mastering SQL Window Functions: A Comprehensive Guide">EN</div>
   </div>
   <div class="absolute menuhide">
     <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
       <div class="flex flex-col space-y-3">
         
         <a href="/tech/sql/" class="flex items-center">
-          <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="A SQL Practical Challenge on Salary Analysis">
+          <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="Mastering SQL Window Functions: A Comprehensive Guide">
             EN
           </p>
         </a>
         
-        <a href="/zh-cn/tech/sql/" class="flex items-center">
-          <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="一个关于薪资分析的SQL实战挑战">
+        <a href="/zh-cn/tech/master-sql-window-functions/" class="flex items-center">
+          <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="掌握 SQL 窗口函数：综合指南">
             简体中文
           </p>
         </a>
@@ -413,20 +414,20 @@
 
 
     </span>
-    <div class="text-sm font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="A SQL Practical Challenge on Salary Analysis">EN</div>
+    <div class="text-sm font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="Mastering SQL Window Functions: A Comprehensive Guide">EN</div>
   </div>
   <div class="absolute menuhide">
     <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
       <div class="flex flex-col space-y-3">
         
         <a href="/tech/sql/" class="flex items-center">
-          <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="A SQL Practical Challenge on Salary Analysis">
+          <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="Mastering SQL Window Functions: A Comprehensive Guide">
             EN
           </p>
         </a>
         
-        <a href="/zh-cn/tech/sql/" class="flex items-center">
-          <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="一个关于薪资分析的SQL实战挑战">
+        <a href="/zh-cn/tech/master-sql-window-functions/" class="flex items-center">
+          <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="掌握 SQL 窗口函数：综合指南">
             简体中文
           </p>
         </a>
@@ -680,7 +681,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/tech/sql/featured_hu96a5ab8e0364e843af4687201b687892_212434_1200x0_resize_q75_box.jpeg);">
+    style="background-image:url(/tech/sql/featured_hu12da2fc9480599c1d1de79584a2b4ad8_315588_1200x0_resize_q75_box.jpeg);">
     
 
 
@@ -734,7 +735,7 @@
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
       href="/tech/sql/"
-      >A SQL Practical Challenge on Salary Analysis</a
+      >Mastering SQL Window Functions: A Comprehensive Guide</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -743,7 +744,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      A SQL Practical Challenge on Salary Analysis
+      Mastering SQL Window Functions: A Comprehensive Guide
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -788,7 +789,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span title="Reading time">5 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <span title="Reading time">8 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -798,7 +799,7 @@
 
 <span class="mb-[2px]">
   <a
-    href="https://github.com/nunocoracao/blowfish/tree/main/exampleSite/content/tech/mastering-sql-window-functions-salary-analysis/index.md"
+    href="https://github.com/nunocoracao/blowfish/tree/main/exampleSite/content/tech/master-sql-window-functions/index.md"
     class="text-lg hover:text-primary-500"
     rel="noopener noreferrer"
     target="_blank"
@@ -872,54 +873,6 @@
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/mysql/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    MySQL
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/salary-analysis/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Salary Analysis
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/data-assessment/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Data Assessment
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/sql-ranking/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    SQL Ranking
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/salary-difference/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Salary Difference
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/top-earners/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Top Earners
-  </span>
-</span>
-  </span>
-  
   <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/data-analysis/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
@@ -928,10 +881,42 @@
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/sql-queries/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/database/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    SQL Queries
+    Database
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ranking/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Ranking
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/lag/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    LAG
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/lead/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    LEAD
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/tutorial/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Tutorial
   </span>
 </span>
   </span>
@@ -1075,16 +1060,55 @@
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#problem-description">Problem Description</a></li>
-    <li><a href="#solution--analysis">Solution &amp; Analysis</a>
+    <li><a href="#what-are-sql-window-functions">What Are SQL Window Functions?</a>
       <ul>
-        <li><a href="#1-analyze-the-problem">1. Analyze the Problem</a></li>
-        <li><a href="#2-writing-the-query">2. Writing the Query</a></li>
-        <li><a href="#3-query-explanation">3. Query Explanation</a></li>
+        <li><a href="#syntax-overview"><strong>Syntax Overview</strong></a></li>
       </ul>
     </li>
-    <li><a href="#expected-results">Expected Results</a></li>
-    <li><a href="#key-takeaways">Key Takeaways</a></li>
+    <li><a href="#key-sql-window-functions">Key SQL Window Functions</a>
+      <ul>
+        <li><a href="#1-ranking-functions"><strong>1. Ranking Functions</strong></a>
+          <ul>
+            <li><a href="#row_number"><strong><code>ROW_NUMBER()</code></strong></a></li>
+            <li><a href="#rank"><strong><code>RANK()</code></strong></a></li>
+            <li><a href="#dense_rank"><strong><code>DENSE_RANK()</code></strong></a></li>
+          </ul>
+        </li>
+        <li><a href="#2-aggregate-functions-windowed"><strong>2. Aggregate Functions (Windowed)</strong></a>
+          <ul>
+            <li><a href="#sum"><strong><code>SUM()</code></strong></a></li>
+            <li><a href="#avg"><strong><code>AVG()</code></strong></a></li>
+            <li><a href="#count"><strong><code>COUNT()</code></strong></a></li>
+            <li><a href="#max--min"><strong><code>MAX() / MIN()</code></strong></a></li>
+          </ul>
+        </li>
+        <li><a href="#3-window-based-row-navigation"><strong>3. Window-Based Row Navigation</strong></a>
+          <ul>
+            <li><a href="#lag"><strong><code>LAG()</code></strong></a></li>
+            <li><a href="#lead"><strong><code>LEAD()</code></strong></a></li>
+          </ul>
+        </li>
+        <li><a href="#4-first-and-last-value-functions"><strong>4. First and Last Value Functions</strong></a>
+          <ul>
+            <li><a href="#first_value"><strong><code>FIRST_VALUE()</code></strong></a></li>
+            <li><a href="#last_value"><strong><code>LAST_VALUE()</code></strong></a></li>
+          </ul>
+        </li>
+        <li><a href="#5-windowing-clauses-rows-and-range"><strong>5. Windowing Clauses (<code>ROWS</code> and <code>RANGE</code>)</strong></a>
+          <ul>
+            <li><a href="#rows-example"><strong><code>ROWS</code> Example</strong></a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#common-use-cases-for-window-functions">Common Use Cases for Window Functions</a>
+      <ul>
+        <li><a href="#1-cumulative-calculations"><strong>1. Cumulative Calculations</strong></a></li>
+        <li><a href="#2-ranking-and-sorting"><strong>2. Ranking and Sorting</strong></a></li>
+        <li><a href="#3-time-series-analysis"><strong>3. Time-Series Analysis</strong></a></li>
+        <li><a href="#4-comparative-analysis"><strong>4. Comparative Analysis</strong></a></li>
+      </ul>
+    </li>
     <li><a href="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
@@ -1099,16 +1123,55 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#problem-description">Problem Description</a></li>
-    <li><a href="#solution--analysis">Solution &amp; Analysis</a>
+    <li><a href="#what-are-sql-window-functions">What Are SQL Window Functions?</a>
       <ul>
-        <li><a href="#1-analyze-the-problem">1. Analyze the Problem</a></li>
-        <li><a href="#2-writing-the-query">2. Writing the Query</a></li>
-        <li><a href="#3-query-explanation">3. Query Explanation</a></li>
+        <li><a href="#syntax-overview"><strong>Syntax Overview</strong></a></li>
       </ul>
     </li>
-    <li><a href="#expected-results">Expected Results</a></li>
-    <li><a href="#key-takeaways">Key Takeaways</a></li>
+    <li><a href="#key-sql-window-functions">Key SQL Window Functions</a>
+      <ul>
+        <li><a href="#1-ranking-functions"><strong>1. Ranking Functions</strong></a>
+          <ul>
+            <li><a href="#row_number"><strong><code>ROW_NUMBER()</code></strong></a></li>
+            <li><a href="#rank"><strong><code>RANK()</code></strong></a></li>
+            <li><a href="#dense_rank"><strong><code>DENSE_RANK()</code></strong></a></li>
+          </ul>
+        </li>
+        <li><a href="#2-aggregate-functions-windowed"><strong>2. Aggregate Functions (Windowed)</strong></a>
+          <ul>
+            <li><a href="#sum"><strong><code>SUM()</code></strong></a></li>
+            <li><a href="#avg"><strong><code>AVG()</code></strong></a></li>
+            <li><a href="#count"><strong><code>COUNT()</code></strong></a></li>
+            <li><a href="#max--min"><strong><code>MAX() / MIN()</code></strong></a></li>
+          </ul>
+        </li>
+        <li><a href="#3-window-based-row-navigation"><strong>3. Window-Based Row Navigation</strong></a>
+          <ul>
+            <li><a href="#lag"><strong><code>LAG()</code></strong></a></li>
+            <li><a href="#lead"><strong><code>LEAD()</code></strong></a></li>
+          </ul>
+        </li>
+        <li><a href="#4-first-and-last-value-functions"><strong>4. First and Last Value Functions</strong></a>
+          <ul>
+            <li><a href="#first_value"><strong><code>FIRST_VALUE()</code></strong></a></li>
+            <li><a href="#last_value"><strong><code>LAST_VALUE()</code></strong></a></li>
+          </ul>
+        </li>
+        <li><a href="#5-windowing-clauses-rows-and-range"><strong>5. Windowing Clauses (<code>ROWS</code> and <code>RANGE</code>)</strong></a>
+          <ul>
+            <li><a href="#rows-example"><strong><code>ROWS</code> Example</strong></a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#common-use-cases-for-window-functions">Common Use Cases for Window Functions</a>
+      <ul>
+        <li><a href="#1-cumulative-calculations"><strong>1. Cumulative Calculations</strong></a></li>
+        <li><a href="#2-ranking-and-sorting"><strong>2. Ranking and Sorting</strong></a></li>
+        <li><a href="#3-time-series-analysis"><strong>3. Time-Series Analysis</strong></a></li>
+        <li><a href="#4-comparative-analysis"><strong>4. Comparative Analysis</strong></a></li>
+      </ul>
+    </li>
     <li><a href="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
@@ -1199,7 +1262,16 @@
     
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        Part 1: This Article
+        <a href="http://localhost:61941/tech/mastering-sql-window-functions-salary-analysis/">
+            Part 1: A SQL Practical Challenge on Salary Analysis
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        Part 2: This Article
     </div>
     
     
@@ -1210,118 +1282,8 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>Recently, I encountered an interesting SQL challenge. The task required using window functions to analyze employee salaries within departments. This is a powerful yet sometimes tricky feature in SQL.</p>
-<p>Here is the problem description and how I solved it.</p>
-
-
-<h2 class="relative group">Problem Description 
-    <div id="problem-description" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#problem-description" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<p><strong>sql dept salary ranking</strong></p>
-<p>In this MySQL challenge, your task is to analyze salary rankings within each company department. Construct a query that accomplishes the following objectives:</p>
-<ul>
-<li><strong>Individual Salary Rankings</strong>: For each department represented by &lsquo;DivisionID&rsquo;, rank the employees based on their salaries in descending order.</li>
-<li><strong>Salary Comparisons</strong>: Calculate the difference in salary (SalaryDifference) between each employee and the next lower-paid employee in the same department. For the lowest-paid employee in each department, the &lsquo;SalaryDifference should be displayed as &lsquo;NULL.</li>
-<li><strong>Highlight Top Earners</strong>: Include a column titled &lsquo;IsTopEarner&rsquo; that displays &ldquo;Yes&rdquo; for the highest-paid employee in each department and &ldquo;No&rdquo; for all other employees.</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>ID</th>
-<th>Name</th>
-<th>DivisionID</th>
-<th>ManagerID</th>
-<th>Salary</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>356</td>
-<td>Daniel Smith</td>
-<td>100</td>
-<td>133</td>
-<td>40000</td>
-</tr>
-<tr>
-<td>122</td>
-<td>Arnold Sully</td>
-<td>101</td>
-<td>null</td>
-<td>60000</td>
-</tr>
-<tr>
-<td>467</td>
-<td>Lisa Roberts</td>
-<td>100</td>
-<td>null</td>
-<td>80000</td>
-</tr>
-<tr>
-<td>112</td>
-<td>Mary Dial</td>
-<td>105</td>
-<td>467</td>
-<td>65000</td>
-</tr>
-<tr>
-<td>775</td>
-<td>Dennis Front</td>
-<td>103</td>
-<td>null</td>
-<td>90000</td>
-</tr>
-<tr>
-<td>111</td>
-<td>Larry Weis</td>
-<td>104</td>
-<td>35534</td>
-<td>75000</td>
-</tr>
-<tr>
-<td>222</td>
-<td>Mark Red</td>
-<td>102</td>
-<td>133</td>
-<td>86000</td>
-</tr>
-<tr>
-<td>577</td>
-<td>Robert Night</td>
-<td>105</td>
-<td>12353</td>
-<td>76000</td>
-</tr>
-<tr>
-<td>133</td>
-<td>Susan Wall</td>
-<td>105</td>
-<td>577</td>
-<td>110000</td>
-</tr>
-</tbody>
-</table>
-<p>Notice:</p>
-<ul>
-<li>Table name: Employees</li>
-<li>MySQL version: 5.5.56-log</li>
-<li>The result should include the following columns (ordered by SalaryRank in ascending order):
-<ul>
-<li><strong>DivisionID</strong>（ID of the department)</li>
-<li><strong>Name</strong> (Name of the employee)</li>
-<li><strong>Salary</strong> (Salary of the employee)</li>
-<li><strong>SalaryRank</strong>（(Rank of the employee&rsquo;s salary within the department, with 1 being the highest salary)</li>
-<li><strong>SalaryDifference</strong> (Difference in salary between the employee and the next lower-paid employee in the same department)</li>
-<li><strong>IsTopEarner</strong>（Indicates if the employee is the top earner in their department)</li>
-</ul>
-</li>
-</ul>
+          <p>SQL window functions are one of the most powerful and flexible tools available to analysts and developers. They allow for sophisticated calculations across rows of data while preserving the individual rows, which makes them ideal for a wide range of use cases, from ranking and cumulative sums to moving averages and comparisons.</p>
+<p>This blog post provides a detailed overview of all major window functions using the <code>Employees</code> table as an example.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="c1">-- Create the table
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="n">Employees</span><span class="w"> </span><span class="p">(</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">ID</span><span class="w"> </span><span class="nb">INT</span><span class="w"> </span><span class="k">PRIMARY</span><span class="w"> </span><span class="k">KEY</span><span class="p">,</span><span class="w">
@@ -1343,111 +1305,132 @@
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">(</span><span class="mi">222</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Mark Red&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">102</span><span class="p">,</span><span class="w"> </span><span class="mi">133</span><span class="p">,</span><span class="w"> </span><span class="mi">86000</span><span class="p">),</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">(</span><span class="mi">577</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Robert Night&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">105</span><span class="p">,</span><span class="w"> </span><span class="mi">12353</span><span class="p">,</span><span class="w"> </span><span class="mi">76000</span><span class="p">),</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">(</span><span class="mi">133</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Susan Wall&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">105</span><span class="p">,</span><span class="w"> </span><span class="mi">577</span><span class="p">,</span><span class="w"> </span><span class="mi">110000</span><span class="p">);</span><span class="w">
-</span></span></span></code></pre></div>
+</span></span></span></code></pre></div><hr>
 
-<h2 class="relative group">Solution &amp; Analysis 
-    <div id="solution--analysis" class="anchor"></div>
+
+<h2 class="relative group">What Are SQL Window Functions? 
+    <div id="what-are-sql-window-functions" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#solution--analysis" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#what-are-sql-window-functions" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>SQL window functions operate on a set of rows, known as a &ldquo;window,&rdquo; defined by the <code>OVER()</code> clause. Unlike aggregate functions such as <code>SUM()</code> or <code>COUNT()</code>, window functions return a result for each row in the dataset, making them incredibly powerful for detailed analysis that requires both individual row-level calculations and group-level operations.</p>
+
+
+<h3 class="relative group"><strong>Syntax Overview</strong> 
+    <div id="syntax-overview" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#syntax-overview" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>The general syntax of a window function looks like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="o">&lt;</span><span class="n">window_function</span><span class="o">&gt;</span><span class="p">()</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">[</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">column1</span><span class="p">,</span><span class="w"> </span><span class="n">column2</span><span class="p">,</span><span class="w"> </span><span class="p">...]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">[</span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">column3</span><span class="p">,</span><span class="w"> </span><span class="n">column4</span><span class="p">,</span><span class="w"> </span><span class="p">...]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">)</span><span class="w">
+</span></span></span></code></pre></div><ul>
+<li><strong><code>&lt;window_function&gt;</code></strong>: The window function (e.g., <code>ROW_NUMBER()</code>, <code>SUM()</code>, <code>RANK()</code>, etc.).</li>
+<li><strong><code>PARTITION BY</code></strong>: Divides the dataset into partitions (optional).</li>
+<li><strong><code>ORDER BY</code></strong>: Specifies the ordering of rows within each partition (optional).</li>
+<li><strong><code>OVER()</code></strong>: Defines the window of rows for the function.</li>
+</ul>
+<hr>
+
+
+<h2 class="relative group">Key SQL Window Functions 
+    <div id="key-sql-window-functions" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#key-sql-window-functions" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
 
 
-<h3 class="relative group">1. Analyze the Problem 
-    <div id="1-analyze-the-problem" class="anchor"></div>
+<h3 class="relative group"><strong>1. Ranking Functions</strong> 
+    <div id="1-ranking-functions" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#1-analyze-the-problem" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#1-ranking-functions" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
-<p>This is a typical application of <em><strong>SQL window functions</strong></em>, which involves:</p>
-<ul>
-<li>Grouping the data by department (PARTITION BY DivisionID).</li>
-<li>Ranking rows based on a specific condition (RANK() or ROW_NUMBER()).</li>
-<li>Comparing the current row to adjacent rows (LEAD()).</li>
-<li>Identifying the first row in each group (FIRST_VALUE() or using conditional logic).</li>
-</ul>
+<p>Ranking functions are useful when you want to assign a rank to each row within a partition. They are commonly used in scenarios such as leaderboard generation or employee salary rankings.</p>
 
 
-<h3 class="relative group">2. Writing the Query 
-    <div id="2-writing-the-query" class="anchor"></div>
+<h4 class="relative group"><strong><code>ROW_NUMBER()</code></strong> 
+    <div id="row_number" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#2-writing-the-query" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#row_number" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
-<p>Here is the complete query that satisfies the requirements:</p>
+</h4>
+<p>Generates a unique number for each row in the partition.
+Example:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">DivisionID</span><span class="p">,</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Name</span><span class="p">,</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Salary</span><span class="p">,</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">ROW_NUMBER</span><span class="p">()</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">Salary</span><span class="w"> </span><span class="k">DESC</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">SalaryRank</span><span class="p">,</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Salary</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">LEAD</span><span class="p">(</span><span class="n">Salary</span><span class="p">)</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">Salary</span><span class="w"> </span><span class="k">DESC</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">SalaryDifference</span><span class="p">,</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">CASE</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">WHEN</span><span class="w"> </span><span class="n">RANK</span><span class="p">()</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">Salary</span><span class="w"> </span><span class="k">DESC</span><span class="p">)</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="k">THEN</span><span class="w"> </span><span class="s1">&#39;Yes&#39;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">ELSE</span><span class="w"> </span><span class="s1">&#39;No&#39;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">END</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">IsTopEarner</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">Employees</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="p">,</span><span class="w"> </span><span class="n">SalaryRank</span><span class="p">;</span><span class="w">
-</span></span></span></code></pre></div>
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">ROW_NUMBER</span><span class="p">()</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">Salary</span><span class="w"> </span><span class="k">DESC</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">SalaryRank</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">Employees</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><p>This query ranks employees in each department by their salary in descending order.</p>
 
-<h3 class="relative group">3. Query Explanation 
-    <div id="3-query-explanation" class="anchor"></div>
+
+<h4 class="relative group"><strong><code>RANK()</code></strong> 
+    <div id="rank" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#3-query-explanation" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#rank" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
-<ol>
-<li>Salary Ranking
-We use RANK() or ROW_NUMBER() to rank employees by salary within each department (PARTITION BY DivisionID), ordered by salary in descending order:</li>
-</ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="n">RANK</span><span class="p">()</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">Salary</span><span class="w"> </span><span class="k">DESC</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">SalaryRank</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="o">#</span><span class="w"> </span><span class="k">or</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">ROW_NUMBER</span><span class="p">()</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">Salary</span><span class="w"> </span><span class="k">DESC</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">SalaryRank</span><span class="w">
-</span></span></span></code></pre></div><ol start="2">
-<li>Salary Difference Calculation
-The LEAD() function retrieves the salary of the next row (lower-paid employee) within the same department (PARTITION BY DivisionID), and calculates the difference between the current and next employee&rsquo;s salary:</li>
-</ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="n">Salary</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">LEAD</span><span class="p">(</span><span class="n">Salary</span><span class="p">)</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">Salary</span><span class="w"> </span><span class="k">DESC</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">SalaryDifference</span><span class="p">,</span><span class="w">
-</span></span></span></code></pre></div><p>For the lowest-paid employee, since LEAD() cannot fetch the next row, the difference will be NULL.
-3. Highlight Top Earners
-Using a CASE statement, we check if the employee has the highest salary in their department (SalaryRank = 1). If so, mark as &ldquo;Yes&rdquo;, otherwise &ldquo;No&rdquo;:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">CASE</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">WHEN</span><span class="w"> </span><span class="n">RANK</span><span class="p">()</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">Salary</span><span class="w"> </span><span class="k">DESC</span><span class="p">)</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="k">THEN</span><span class="w"> </span><span class="s1">&#39;Yes&#39;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">ELSE</span><span class="w"> </span><span class="s1">&#39;No&#39;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">END</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">IsTopEarner</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="o">#</span><span class="w"> </span><span class="k">or</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">CASE</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">WHEN</span><span class="w"> </span><span class="n">ROW_NUMBER</span><span class="p">()</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">Salary</span><span class="w"> </span><span class="k">DESC</span><span class="p">)</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="k">THEN</span><span class="w"> </span><span class="s1">&#39;Yes&#39;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">ELSE</span><span class="w"> </span><span class="s1">&#39;No&#39;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">END</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">IsTopEarner</span><span class="w">
-</span></span></span></code></pre></div>
+</h4>
+<p>Assigns a rank to each row, but leaves gaps when there are ties. The next rank is skipped for rows with the same value.
+Example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">DivisionID</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Name</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Salary</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">RANK</span><span class="p">()</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">Salary</span><span class="w"> </span><span class="k">DESC</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">SalaryRank</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">Employees</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><p>If two employees have the same salary, they will have the same rank, and the next rank will be skipped.</p>
 
-<h2 class="relative group">Expected Results 
-    <div id="expected-results" class="anchor"></div>
+
+<h4 class="relative group"><strong><code>DENSE_RANK()</code></strong> 
+    <div id="dense_rank" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#expected-results" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#dense_rank" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
-<p>The query results will be:</p>
+</h4>
+<p>Similar to <code>RANK()</code>, but without gaps in ranking. All rows with the same value receive the same rank, but subsequent ranks are not skipped.
+Example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">DivisionID</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Name</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Salary</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">DENSE_RANK</span><span class="p">()</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">Salary</span><span class="w"> </span><span class="k">DESC</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">SalaryRank</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">Employees</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><p>The query results are same and will be:</p>
 <table>
 <thead>
 <tr>
@@ -1455,8 +1438,6 @@ Using a CASE statement, we check if the employee has the highest salary in their
 <th>Name</th>
 <th>Salary</th>
 <th>SalaryRank</th>
-<th>SalaryDifference</th>
-<th>IsTopEarner</th>
 </tr>
 </thead>
 <tbody>
@@ -1465,95 +1446,940 @@ Using a CASE statement, we check if the employee has the highest salary in their
 <td>Lisa Roberts</td>
 <td>80000.00</td>
 <td>1</td>
-<td>40000.00</td>
-<td>Yes</td>
 </tr>
 <tr>
 <td>100</td>
 <td>Daniel Smith</td>
 <td>40000.00</td>
 <td>2</td>
-<td></td>
-<td>No</td>
 </tr>
 <tr>
 <td>101</td>
 <td>Arnold Sully</td>
 <td>60000.00</td>
 <td>1</td>
-<td></td>
-<td>Yes</td>
 </tr>
 <tr>
 <td>102</td>
 <td>Mark Red</td>
 <td>86000.00</td>
 <td>1</td>
-<td></td>
-<td>Yes</td>
 </tr>
 <tr>
 <td>103</td>
 <td>Dennis Front</td>
 <td>90000.00</td>
 <td>1</td>
-<td></td>
-<td>Yes</td>
 </tr>
 <tr>
 <td>104</td>
 <td>Larry Weis</td>
 <td>75000.00</td>
 <td>1</td>
-<td></td>
-<td>Yes</td>
 </tr>
 <tr>
 <td>105</td>
 <td>Susan Wall</td>
 <td>110000.00</td>
 <td>1</td>
-<td>34000.00</td>
-<td>Yes</td>
 </tr>
 <tr>
 <td>105</td>
 <td>Robert Night</td>
 <td>76000.00</td>
 <td>2</td>
-<td>11000.00</td>
-<td>No</td>
 </tr>
 <tr>
 <td>105</td>
 <td>Mary Dial</td>
 <td>65000.00</td>
 <td>3</td>
-<td></td>
-<td>No</td>
+</tr>
+</tbody>
+</table>
+<hr>
+
+
+<h3 class="relative group"><strong>2. Aggregate Functions (Windowed)</strong> 
+    <div id="2-aggregate-functions-windowed" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#2-aggregate-functions-windowed" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Window functions can be combined with aggregate functions, allowing you to calculate values like running totals or averages without collapsing the rows into a single result.</p>
+
+
+<h4 class="relative group"><strong><code>SUM()</code></strong> 
+    <div id="sum" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#sum" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Calculates the cumulative sum over a window of rows.
+Example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w"> </span><span class="n">employee_id</span><span class="p">,</span><span class="w"> </span><span class="n">salary</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="k">SUM</span><span class="p">(</span><span class="n">salary</span><span class="p">)</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">department</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">salary</span><span class="w"> </span><span class="k">DESC</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">cumulative_salary</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">employees</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><p>This query calculates the cumulative salary for each employee in each department.</p>
+<table>
+<thead>
+<tr>
+<th>DivisionID</th>
+<th>Name</th>
+<th>Salary</th>
+<th>CumulativeSalary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>Lisa Roberts</td>
+<td>80000.00</td>
+<td>80000.00</td>
+</tr>
+<tr>
+<td>100</td>
+<td>Daniel Smith</td>
+<td>40000.00</td>
+<td>120000.00</td>
+</tr>
+<tr>
+<td>101</td>
+<td>Arnold Sully</td>
+<td>60000.00</td>
+<td>60000.00</td>
+</tr>
+<tr>
+<td>102</td>
+<td>Mark Red</td>
+<td>86000.00</td>
+<td>86000.00</td>
+</tr>
+<tr>
+<td>103</td>
+<td>Dennis Front</td>
+<td>90000.00</td>
+<td>90000.00</td>
+</tr>
+<tr>
+<td>104</td>
+<td>Larry Weis</td>
+<td>75000.00</td>
+<td>75000.00</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Susan Wall</td>
+<td>110000.00</td>
+<td>110000.00</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Robert Night</td>
+<td>76000.00</td>
+<td>186000.00</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Mary Dial</td>
+<td>65000.00</td>
+<td>251000.00</td>
 </tr>
 </tbody>
 </table>
 
 
-<h2 class="relative group">Key Takeaways 
-    <div id="key-takeaways" class="anchor"></div>
+<h4 class="relative group"><strong><code>AVG()</code></strong> 
+    <div id="avg" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#key-takeaways" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#avg" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Calculates the average salary for employees in each department.
+Example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">DivisionID</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Name</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Salary</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">AVG</span><span class="p">(</span><span class="n">Salary</span><span class="p">)</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">AvgSalary</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">Employees</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>DivisionID</th>
+<th>Name</th>
+<th>Salary</th>
+<th>AvgSalary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>Daniel Smith</td>
+<td>40000.00</td>
+<td>60000.000000</td>
+</tr>
+<tr>
+<td>100</td>
+<td>Lisa Roberts</td>
+<td>80000.00</td>
+<td>60000.000000</td>
+</tr>
+<tr>
+<td>101</td>
+<td>Arnold Sully</td>
+<td>60000.00</td>
+<td>60000.000000</td>
+</tr>
+<tr>
+<td>102</td>
+<td>Mark Red</td>
+<td>86000.00</td>
+<td>86000.000000</td>
+</tr>
+<tr>
+<td>103</td>
+<td>Dennis Front</td>
+<td>90000.00</td>
+<td>90000.000000</td>
+</tr>
+<tr>
+<td>104</td>
+<td>Larry Weis</td>
+<td>75000.00</td>
+<td>75000.000000</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Mary Dial</td>
+<td>65000.00</td>
+<td>83666.666667</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Susan Wall</td>
+<td>110000.00</td>
+<td>83666.666667</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Robert Night</td>
+<td>76000.00</td>
+<td>83666.666667</td>
+</tr>
+</tbody>
+</table>
+
+
+<h4 class="relative group"><strong><code>COUNT()</code></strong> 
+    <div id="count" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#count" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Counts the number of rows in the window.
+Example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">DivisionID</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Name</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">EmployeeCount</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">Employees</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>DivisionID</th>
+<th>Name</th>
+<th>EmployeeCount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>Daniel Smith</td>
+<td>2</td>
+</tr>
+<tr>
+<td>100</td>
+<td>Lisa Roberts</td>
+<td>2</td>
+</tr>
+<tr>
+<td>101</td>
+<td>Arnold Sully</td>
+<td>1</td>
+</tr>
+<tr>
+<td>102</td>
+<td>Mark Red</td>
+<td>1</td>
+</tr>
+<tr>
+<td>103</td>
+<td>Dennis Front</td>
+<td>1</td>
+</tr>
+<tr>
+<td>104</td>
+<td>Larry Weis</td>
+<td>1</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Mary Dial</td>
+<td>3</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Susan Wall</td>
+<td>3</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Robert Night</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+
+
+<h4 class="relative group"><strong><code>MAX() / MIN()</code></strong> 
+    <div id="max--min" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#max--min" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Returns the maximum or minimum value in a window.
+Example: Find the highest salary in each department.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">DivisionID</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Name</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Salary</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">MAX</span><span class="p">(</span><span class="n">Salary</span><span class="p">)</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">MaxSalary</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">Employees</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>DivisionID</th>
+<th>Name</th>
+<th>Salary</th>
+<th>MaxSalary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>Daniel Smith</td>
+<td>40000.00</td>
+<td>80000.00</td>
+</tr>
+<tr>
+<td>100</td>
+<td>Lisa Roberts</td>
+<td>80000.00</td>
+<td>80000.00</td>
+</tr>
+<tr>
+<td>101</td>
+<td>Arnold Sully</td>
+<td>60000.00</td>
+<td>60000.00</td>
+</tr>
+<tr>
+<td>102</td>
+<td>Mark Red</td>
+<td>86000.00</td>
+<td>86000.00</td>
+</tr>
+<tr>
+<td>103</td>
+<td>Dennis Front</td>
+<td>90000.00</td>
+<td>90000.00</td>
+</tr>
+<tr>
+<td>104</td>
+<td>Larry Weis</td>
+<td>75000.00</td>
+<td>75000.00</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Mary Dial</td>
+<td>65000.00</td>
+<td>110000.00</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Susan Wall</td>
+<td>110000.00</td>
+<td>110000.00</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Robert Night</td>
+<td>76000.00</td>
+<td>110000.00</td>
+</tr>
+</tbody>
+</table>
+<hr>
+
+
+<h3 class="relative group"><strong>3. Window-Based Row Navigation</strong> 
+    <div id="3-window-based-row-navigation" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#3-window-based-row-navigation" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>These functions allow you to reference values from previous or next rows, which is especially useful for calculating differences, moving averages, or time-based comparisons.</p>
+
+
+<h4 class="relative group"><strong><code>LAG()</code></strong> 
+    <div id="lag" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#lag" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Returns the value of a specified column from a previous row in the same partition.
+Example: Find the previous salary in each department.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">DivisionID</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Name</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Salary</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">LAG</span><span class="p">(</span><span class="n">Salary</span><span class="p">)</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">Salary</span><span class="w"> </span><span class="k">DESC</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">PreviousSalary</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">Employees</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>DivisionID</th>
+<th>Name</th>
+<th>Salary</th>
+<th>PreviousSalary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>Lisa Roberts</td>
+<td>80000.00</td>
+<td></td>
+</tr>
+<tr>
+<td>100</td>
+<td>Daniel Smith</td>
+<td>40000.00</td>
+<td>80000.00</td>
+</tr>
+<tr>
+<td>101</td>
+<td>Arnold Sully</td>
+<td>60000.00</td>
+<td></td>
+</tr>
+<tr>
+<td>102</td>
+<td>Mark Red</td>
+<td>86000.00</td>
+<td></td>
+</tr>
+<tr>
+<td>103</td>
+<td>Dennis Front</td>
+<td>90000.00</td>
+<td></td>
+</tr>
+<tr>
+<td>104</td>
+<td>Larry Weis</td>
+<td>75000.00</td>
+<td></td>
+</tr>
+<tr>
+<td>105</td>
+<td>Susan Wall</td>
+<td>110000.00</td>
+<td></td>
+</tr>
+<tr>
+<td>105</td>
+<td>Robert Night</td>
+<td>76000.00</td>
+<td>110000.00</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Mary Dial</td>
+<td>65000.00</td>
+<td>76000.00</td>
+</tr>
+</tbody>
+</table>
+
+
+<h4 class="relative group"><strong><code>LEAD()</code></strong> 
+    <div id="lead" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#lead" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Returns the value of a specified column from a subsequent row in the same partition.
+Example: Find the next salary in each department.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">DivisionID</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Name</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Salary</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">LEAD</span><span class="p">(</span><span class="n">Salary</span><span class="p">)</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">Salary</span><span class="w"> </span><span class="k">DESC</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">NextSalary</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">Employees</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>DivisionID</th>
+<th>Name</th>
+<th>Salary</th>
+<th>NextSalary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>Lisa Roberts</td>
+<td>80000.00</td>
+<td>40000.00</td>
+</tr>
+<tr>
+<td>100</td>
+<td>Daniel Smith</td>
+<td>40000.00</td>
+<td></td>
+</tr>
+<tr>
+<td>101</td>
+<td>Arnold Sully</td>
+<td>60000.00</td>
+<td></td>
+</tr>
+<tr>
+<td>102</td>
+<td>Mark Red</td>
+<td>86000.00</td>
+<td></td>
+</tr>
+<tr>
+<td>103</td>
+<td>Dennis Front</td>
+<td>90000.00</td>
+<td></td>
+</tr>
+<tr>
+<td>104</td>
+<td>Larry Weis</td>
+<td>75000.00</td>
+<td></td>
+</tr>
+<tr>
+<td>105</td>
+<td>Susan Wall</td>
+<td>110000.00</td>
+<td>76000.00</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Robert Night</td>
+<td>76000.00</td>
+<td>65000.00</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Mary Dial</td>
+<td>65000.00</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+
+
+<h3 class="relative group"><strong>4. First and Last Value Functions</strong> 
+    <div id="4-first-and-last-value-functions" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#4-first-and-last-value-functions" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>These functions return the first or last value in a window.</p>
+
+
+<h4 class="relative group"><strong><code>FIRST_VALUE()</code></strong> 
+    <div id="first_value" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#first_value" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Returns the first value in the window.
+Example: Find the highest-paid employee in each department.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">DivisionID</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Name</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Salary</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">FIRST_VALUE</span><span class="p">(</span><span class="n">Name</span><span class="p">)</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">Salary</span><span class="w"> </span><span class="k">DESC</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">TopEarner</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">Employees</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>DivisionID</th>
+<th>Name</th>
+<th>Salary</th>
+<th>TopEarner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>Lisa Roberts</td>
+<td>80000.00</td>
+<td>Lisa Roberts</td>
+</tr>
+<tr>
+<td>100</td>
+<td>Daniel Smith</td>
+<td>40000.00</td>
+<td>Lisa Roberts</td>
+</tr>
+<tr>
+<td>101</td>
+<td>Arnold Sully</td>
+<td>60000.00</td>
+<td>Arnold Sully</td>
+</tr>
+<tr>
+<td>102</td>
+<td>Mark Red</td>
+<td>86000.00</td>
+<td>Mark Red</td>
+</tr>
+<tr>
+<td>103</td>
+<td>Dennis Front</td>
+<td>90000.00</td>
+<td>Dennis Front</td>
+</tr>
+<tr>
+<td>104</td>
+<td>Larry Weis</td>
+<td>75000.00</td>
+<td>Larry Weis</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Susan Wall</td>
+<td>110000.00</td>
+<td>Susan Wall</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Robert Night</td>
+<td>76000.00</td>
+<td>Susan Wall</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Mary Dial</td>
+<td>65000.00</td>
+<td>Susan Wall</td>
+</tr>
+</tbody>
+</table>
+
+
+<h4 class="relative group"><strong><code>LAST_VALUE()</code></strong> 
+    <div id="last_value" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#last_value" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Returns the last value in the window.
+Example: Find the lowest-paid employee in each department.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">DivisionID</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Name</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Salary</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">LAST_VALUE</span><span class="p">(</span><span class="n">Name</span><span class="p">)</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">Salary</span><span class="w"> </span><span class="k">ASC</span><span class="w"> </span><span class="k">ROWS</span><span class="w"> </span><span class="k">BETWEEN</span><span class="w"> </span><span class="n">UNBOUNDED</span><span class="w"> </span><span class="n">PRECEDING</span><span class="w"> </span><span class="k">AND</span><span class="w"> </span><span class="n">UNBOUNDED</span><span class="w"> </span><span class="n">FOLLOWING</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">LowestEarner</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">Employees</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>DivisionID</th>
+<th>Name</th>
+<th>Salary</th>
+<th>LowestEarner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>Daniel Smith</td>
+<td>40000.00</td>
+<td>Lisa Roberts</td>
+</tr>
+<tr>
+<td>100</td>
+<td>Lisa Roberts</td>
+<td>80000.00</td>
+<td>Lisa Roberts</td>
+</tr>
+<tr>
+<td>101</td>
+<td>Arnold Sully</td>
+<td>60000.00</td>
+<td>Arnold Sully</td>
+</tr>
+<tr>
+<td>102</td>
+<td>Mark Red</td>
+<td>86000.00</td>
+<td>Mark Red</td>
+</tr>
+<tr>
+<td>103</td>
+<td>Dennis Front</td>
+<td>90000.00</td>
+<td>Dennis Front</td>
+</tr>
+<tr>
+<td>104</td>
+<td>Larry Weis</td>
+<td>75000.00</td>
+<td>Larry Weis</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Mary Dial</td>
+<td>65000.00</td>
+<td>Susan Wall</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Robert Night</td>
+<td>76000.00</td>
+<td>Susan Wall</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Susan Wall</td>
+<td>110000.00</td>
+<td>Susan Wall</td>
+</tr>
+</tbody>
+</table>
+<hr>
+
+
+<h3 class="relative group"><strong>5. Windowing Clauses (<code>ROWS</code> and <code>RANGE</code>)</strong> 
+    <div id="5-windowing-clauses-rows-and-range" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#5-windowing-clauses-rows-and-range" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>In SQL, the <code>ROWS</code> and <code>RANGE</code> clauses let you specify the exact set of rows that make up the window. This is particularly useful for time-series analysis or when comparing a specific range of rows.</p>
+
+
+<h4 class="relative group"><strong><code>ROWS</code> Example</strong> 
+    <div id="rows-example" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#rows-example" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Defines the window in terms of physical rows (e.g., the current row and the previous 2 rows).
+Example: Calculate a moving average of salaries for each department.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">DivisionID</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Name</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Salary</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">AVG</span><span class="p">(</span><span class="n">Salary</span><span class="p">)</span><span class="w"> </span><span class="n">OVER</span><span class="w"> </span><span class="p">(</span><span class="n">PARTITION</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">DivisionID</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">Salary</span><span class="w"> </span><span class="k">ASC</span><span class="w"> </span><span class="k">ROWS</span><span class="w"> </span><span class="k">BETWEEN</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="n">PRECEDING</span><span class="w"> </span><span class="k">AND</span><span class="w"> </span><span class="k">CURRENT</span><span class="w"> </span><span class="k">ROW</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">MovingAvg</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">Employees</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>DivisionID</th>
+<th>Name</th>
+<th>Salary</th>
+<th>MovingAvg</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>Daniel Smith</td>
+<td>40000.00</td>
+<td>40000.000000</td>
+</tr>
+<tr>
+<td>100</td>
+<td>Lisa Roberts</td>
+<td>80000.00</td>
+<td>60000.000000</td>
+</tr>
+<tr>
+<td>101</td>
+<td>Arnold Sully</td>
+<td>60000.00</td>
+<td>60000.000000</td>
+</tr>
+<tr>
+<td>102</td>
+<td>Mark Red</td>
+<td>86000.00</td>
+<td>86000.000000</td>
+</tr>
+<tr>
+<td>103</td>
+<td>Dennis Front</td>
+<td>90000.00</td>
+<td>90000.000000</td>
+</tr>
+<tr>
+<td>104</td>
+<td>Larry Weis</td>
+<td>75000.00</td>
+<td>75000.000000</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Mary Dial</td>
+<td>65000.00</td>
+<td>65000.000000</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Robert Night</td>
+<td>76000.00</td>
+<td>70500.000000</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Susan Wall</td>
+<td>110000.00</td>
+<td>93000.000000</td>
+</tr>
+</tbody>
+</table>
+<hr>
+
+
+<h2 class="relative group">Common Use Cases for Window Functions 
+    <div id="common-use-cases-for-window-functions" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#common-use-cases-for-window-functions" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<ol>
-<li>Powerful Window Functions
-Window functions like <em>RANK(), ROW_NUMBER(), and LEAD()</em> are very effective when performing calculations within groups of data.</li>
-<li>Modular Query Writing
-Breaking down the task into smaller parts (such as ranking, calculating differences, and conditional logic) helps simplify the problem-solving process and ensures the query’s clarity and maintainability.</li>
-<li>Efficient Debugging
-Testing individual parts of the query (such as first checking the output of <em>RANK()</em>, then adding the <em>LEAD()</em> calculation) can speed up the debugging process.</li>
-</ol>
+
+
+<h3 class="relative group"><strong>1. Cumulative Calculations</strong> 
+    <div id="1-cumulative-calculations" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#1-cumulative-calculations" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>You can calculate running totals, averages, or other aggregate values that accumulate over a set of rows.</p>
+
+
+<h3 class="relative group"><strong>2. Ranking and Sorting</strong> 
+    <div id="2-ranking-and-sorting" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#2-ranking-and-sorting" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Ranking employees, products, or sales figures is a common use case for window functions, especially when dealing with ties and top-N queries.</p>
+
+
+<h3 class="relative group"><strong>3. Time-Series Analysis</strong> 
+    <div id="3-time-series-analysis" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#3-time-series-analysis" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>For applications involving time-series data, window functions like <code>LAG()</code> and <code>LEAD()</code> are essential for calculating differences over time (e.g., month-over-month growth).</p>
+
+
+<h3 class="relative group"><strong>4. Comparative Analysis</strong> 
+    <div id="4-comparative-analysis" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#4-comparative-analysis" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Window functions enable comparisons between rows, such as comparing each employee&rsquo;s salary to the one before or after them in the same department.</p>
+<hr>
 
 
 <h2 class="relative group">Conclusion 
@@ -1566,7 +2392,7 @@ Testing individual parts of the query (such as first checking the output of <em>
     </span>        
     
 </h2>
-<p>This challenge was a great practice to help me apply <em><strong>SQL window functions</strong></em> to solve a real-world problem. From ranking salaries to comparing adjacent row values, and identifying top earners, this query demonstrates how window functions can simplify complex tasks into concise solutions. If you are facing similar challenges, mastering these window functions will greatly improve your SQL skills and data analysis abilities. I’ve written an in-depth article on window functions, feel free to read and share your thoughts!</p>
+<p>SQL window functions are incredibly powerful tools that enable sophisticated data analysis without collapsing your dataset. Whether you need to rank items, calculate running totals, or compare rows within partitions, window functions provide a flexible and efficient way to handle these tasks.</p>
 
         </div>
         
@@ -1584,7 +2410,16 @@ Testing individual parts of the query (such as first checking the output of <em>
     
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        Part 1: This Article
+        <a href="http://localhost:61941/tech/mastering-sql-window-functions-salary-analysis/">
+            Part 1: A SQL Practical Challenge on Salary Analysis
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        Part 2: This Article
     </div>
     
     
@@ -1600,7 +2435,7 @@ Testing individual parts of the query (such as first checking the output of <em>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://yuzhencode.github.io/tech/sql/&amp;title=A%20SQL%20Practical%20Challenge%20on%20Salary%20Analysis"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:61941/tech/sql/&amp;title=Mastering%20SQL%20Window%20Functions:%20A%20Comprehensive%20Guide"
       title="Share on LinkedIn"
       aria-label="Share on LinkedIn"
       >
@@ -1619,7 +2454,7 @@ Testing individual parts of the query (such as first checking the output of <em>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://twitter.com/intent/tweet/?url=https://yuzhencode.github.io/tech/sql/&amp;text=A%20SQL%20Practical%20Challenge%20on%20Salary%20Analysis"
+      href="https://twitter.com/intent/tweet/?url=http://localhost:61941/tech/sql/&amp;text=Mastering%20SQL%20Window%20Functions:%20A%20Comprehensive%20Guide"
       title="Tweet on Twitter"
       aria-label="Tweet on Twitter"
       >
@@ -1637,7 +2472,7 @@ Testing individual parts of the query (such as first checking the output of <em>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://reddit.com/submit/?url=https://yuzhencode.github.io/tech/sql/&amp;resubmit=true&amp;title=A%20SQL%20Practical%20Challenge%20on%20Salary%20Analysis"
+      href="https://reddit.com/submit/?url=http://localhost:61941/tech/sql/&amp;resubmit=true&amp;title=Mastering%20SQL%20Window%20Functions:%20A%20Comprehensive%20Guide"
       title="Submit to Reddit"
       aria-label="Submit to Reddit"
       >
@@ -1656,7 +2491,7 @@ Testing individual parts of the query (such as first checking the output of <em>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://api.whatsapp.com/send?text=https://yuzhencode.github.io/tech/sql/&amp;resubmit=true&amp;title=A%20SQL%20Practical%20Challenge%20on%20Salary%20Analysis"
+      href="https://api.whatsapp.com/send?text=http://localhost:61941/tech/sql/&amp;resubmit=true&amp;title=Mastering%20SQL%20Window%20Functions:%20A%20Comprehensive%20Guide"
       title=""
       aria-label=""
       >
@@ -1675,7 +2510,7 @@ Testing individual parts of the query (such as first checking the output of <em>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://t.me/share/url?url=https://yuzhencode.github.io/tech/sql/&amp;resubmit=true&amp;title=A%20SQL%20Practical%20Challenge%20on%20Salary%20Analysis"
+      href="https://t.me/share/url?url=http://localhost:61941/tech/sql/&amp;resubmit=true&amp;title=Mastering%20SQL%20Window%20Functions:%20A%20Comprehensive%20Guide"
       title=""
       aria-label=""
       >
@@ -1694,7 +2529,7 @@ Testing individual parts of the query (such as first checking the output of <em>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://pinterest.com/pin/create/bookmarklet/?url=https://yuzhencode.github.io/tech/sql/&amp;description=A%20SQL%20Practical%20Challenge%20on%20Salary%20Analysis"
+      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:61941/tech/sql/&amp;description=Mastering%20SQL%20Window%20Functions:%20A%20Comprehensive%20Guide"
       title="Pin on Pinterest"
       aria-label="Pin on Pinterest"
       >
@@ -1713,7 +2548,7 @@ Testing individual parts of the query (such as first checking the output of <em>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.facebook.com/sharer/sharer.php?u=https://yuzhencode.github.io/tech/sql/&amp;quote=A%20SQL%20Practical%20Challenge%20on%20Salary%20Analysis"
+      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:61941/tech/sql/&amp;quote=Mastering%20SQL%20Window%20Functions:%20A%20Comprehensive%20Guide"
       title="Share on Facebook"
       aria-label="Share on Facebook"
       >
@@ -1732,7 +2567,7 @@ Testing individual parts of the query (such as first checking the output of <em>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="mailto:?body=https://yuzhencode.github.io/tech/sql/&amp;subject=A%20SQL%20Practical%20Challenge%20on%20Salary%20Analysis"
+      href="mailto:?body=http://localhost:61941/tech/sql/&amp;subject=Mastering%20SQL%20Window%20Functions:%20A%20Comprehensive%20Guide"
       title="Send via email"
       aria-label="Send via email"
       >
@@ -1755,6 +2590,181 @@ Testing individual parts of the query (such as first checking the output of <em>
 
 <h2 class="mt-8 text-2xl font-extrabold mb-10">Related</h2>
 <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+  
+  
+
+  <a href="/tech/mastering-sql-window-functions-salary-analysis/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/tech/mastering-sql-window-functions-salary-analysis/featured_hu96a5ab8e0364e843af4687201b687892_212434_600x0_resize_q75_box.jpeg);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/tech/mastering-sql-window-functions-salary-analysis/">A SQL Practical Challenge on Salary Analysis</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span title="Reading time">5 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/sql/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    SQL
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/window-functions/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Window Functions
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/mysql/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    MySQL
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/salary-analysis/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Salary Analysis
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/data-assessment/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Data Assessment
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/sql-ranking/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    SQL Ranking
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/salary-difference/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Salary Difference
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/top-earners/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Top Earners
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/data-analysis/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Data Analysis
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/sql-queries/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    SQL Queries
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
   
   
 
@@ -1883,125 +2893,6 @@ Testing individual parts of the query (such as first checking the output of <em>
   </a>
 
   
-  
-
-  <a href="/tech/github_contribution_issues/" class="min-w-full">
-    
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-        
-        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/tech/github_contribution_issues/featured_hue07249a46bcb0e73fdf99b0174b03aca_229169_600x0_resize_q75_box.jpg);"></div>
-        
-      
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/tech/github_contribution_issues/">Problem solving——Local commits to GitHub repositories, contributions not shown</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <span title="Reading time">3 mins</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/yuzhen/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Yuzhen
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/bug/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Bug
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/git/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Git
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-
-  
 </section>
 
   
@@ -2018,8 +2909,8 @@ Testing individual parts of the query (such as first checking the output of <em>
           
         
       <script>
-        var oid = "views_tech\/mastering-sql-window-functions-salary-analysis\/index.md"
-        var oid_likes = "likes_tech\/mastering-sql-window-functions-salary-analysis\/index.md"
+        var oid = "views_tech\/master-sql-window-functions\/index.md"
+        var oid_likes = "likes_tech\/master-sql-window-functions\/index.md"
       </script>
       
       
@@ -2152,7 +3043,7 @@ Testing individual parts of the query (such as first checking the output of <em>
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="https://yuzhencode.github.io/"
+  data-url="http://localhost:61941/"
   style="z-index:500"
 >
   <div

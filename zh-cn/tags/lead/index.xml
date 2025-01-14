@@ -1,31 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lead on Yuzhen Blog</title>
-    <link>http://localhost:1313/zh-cn/tags/lead/</link>
-    <description>Recent content in Lead on Yuzhen Blog</description>
+    <title>LEAD on Yuzhen(Lee)&#39;s Blog</title>
+    <link>https://yuzhencode.github.io/zh-cn/tags/lead/</link>
+    <description>Recent content in LEAD on Yuzhen(Lee)&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>© 2024 Yuzhen</copyright>
-    <atom:link href="http://localhost:1313/zh-cn/tags/lead/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 Yuzhen(Lee)</copyright>
+    <lastBuildDate>Tue, 14 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/zh-cn/tags/lead/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>简码</title>
-      <link>http://localhost:1313/zh-cn/projects/shortcodes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>掌握 SQL 窗口函数：综合指南</title>
+      <link>https://yuzhencode.github.io/zh-cn/tech/master-sql-window-functions/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh-cn/projects/shortcodes/</guid>
-      <description>除了所有默认 Hugo 简码 之外，Blowfish 还添加了一些额外的功</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/shortcodes/featured.svg" />
-    </item>
-    
-    <item>
-      <title>简码</title>
-      <link>http://localhost:1313/zh-cn/projects/shortcodes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/zh-cn/projects/shortcodes/</guid>
-      <description>除了所有默认 Hugo 简码 之外，Blowfish 还添加了一些额外的功</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/shortcodes/featured.svg" />
+      <guid>https://yuzhencode.github.io/zh-cn/tech/master-sql-window-functions/</guid>
+      <description>SQL 窗口函数是分析师和开发人员可用的最强大、最灵活的工具之一。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/master-sql-window-functions/featured.jpeg" />
     </item>
     
   </channel>

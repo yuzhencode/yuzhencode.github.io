@@ -10,13 +10,13 @@
     <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/tags/sql-queries/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A SQL Practical Challenge on Salary Analysis</title>
-      <link>https://yuzhencode.github.io/tech/sql/</link>
+      <link>https://yuzhencode.github.io/tech/mastering-sql-window-functions-salary-analysis/</link>
       <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://yuzhencode.github.io/tech/sql/</guid>
+      <guid>https://yuzhencode.github.io/tech/mastering-sql-window-functions-salary-analysis/</guid>
       <description>Recently, I encountered an interesting SQL challenge. The task required using window functions to analyze employee salaries within departments. This is a powerful yet sometimes tricky feature in SQL.
 Here is the problem description and how I solved it.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/sql/featured.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/mastering-sql-window-functions-salary-analysis/featured.jpeg" />
     </item>
     
   </channel>

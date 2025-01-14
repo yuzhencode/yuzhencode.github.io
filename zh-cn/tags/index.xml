@@ -7,13 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 Yuzhen(Lee)</copyright>
-    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/zh-cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/zh-cn/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MySQL</title>
-      <link>https://yuzhencode.github.io/zh-cn/tags/mysql/</link>
-      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <title>LAG</title>
+      <link>https://yuzhencode.github.io/zh-cn/tags/lag/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://yuzhencode.github.io/zh-cn/tags/mysql/</guid>
+      <guid>https://yuzhencode.github.io/zh-cn/tags/lag/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LEAD</title>
+      <link>https://yuzhencode.github.io/zh-cn/tags/lead/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/tags/lead/</guid>
       <description></description>
       
     </item>
@@ -21,9 +31,69 @@
     <item>
       <title>SQL</title>
       <link>https://yuzhencode.github.io/zh-cn/tags/sql/</link>
-      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>https://yuzhencode.github.io/zh-cn/tags/sql/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>窗口函数</title>
+      <link>https://yuzhencode.github.io/zh-cn/tags/%E7%AA%97%E5%8F%A3%E5%87%BD%E6%95%B0/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/tags/%E7%AA%97%E5%8F%A3%E5%87%BD%E6%95%B0/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>教程</title>
+      <link>https://yuzhencode.github.io/zh-cn/tags/%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/tags/%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>排名</title>
+      <link>https://yuzhencode.github.io/zh-cn/tags/%E6%8E%92%E5%90%8D/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/tags/%E6%8E%92%E5%90%8D/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>数据分析</title>
+      <link>https://yuzhencode.github.io/zh-cn/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>数据库</title>
+      <link>https://yuzhencode.github.io/zh-cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>MySQL</title>
+      <link>https://yuzhencode.github.io/zh-cn/tags/mysql/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/zh-cn/tags/mysql/</guid>
       <description></description>
       
     </item>
@@ -49,31 +119,11 @@
     </item>
     
     <item>
-      <title>窗口函数</title>
-      <link>https://yuzhencode.github.io/zh-cn/tags/%E7%AA%97%E5%8F%A3%E5%87%BD%E6%95%B0/</link>
-      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuzhencode.github.io/zh-cn/tags/%E7%AA%97%E5%8F%A3%E5%87%BD%E6%95%B0/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>高薪员工</title>
       <link>https://yuzhencode.github.io/zh-cn/tags/%E9%AB%98%E8%96%AA%E5%91%98%E5%B7%A5/</link>
       <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>https://yuzhencode.github.io/zh-cn/tags/%E9%AB%98%E8%96%AA%E5%91%98%E5%B7%A5/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>数据分析</title>
-      <link>https://yuzhencode.github.io/zh-cn/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</link>
-      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuzhencode.github.io/zh-cn/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</guid>
       <description></description>
       
     </item>

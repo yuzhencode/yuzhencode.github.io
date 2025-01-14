@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mastering SQL Window Functions on Yuzhen(Lee)&#39;s Blog</title>
+    <link>http://localhost:61941/series/mastering-sql-window-functions/</link>
+    <description>Recent content in Mastering SQL Window Functions on Yuzhen(Lee)&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Yuzhen(Lee)</copyright>
+    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:61941/series/mastering-sql-window-functions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering SQL Window Functions: A Comprehensive Guide</title>
+      <link>http://localhost:61941/tech/sql/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:61941/tech/sql/</guid>
+      <description>SQL window functions are one of the most powerful and flexible tools available to analysts and developers. They allow for sophisticated calculations across rows of data while preserving the individual rows, which makes them ideal for a wide range of use cases, from ranking and cumulative sums to moving averages and comparisons.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:61941/tech/sql/featured.jpeg" />
+    </item>
+    
+  </channel>
+</rss>

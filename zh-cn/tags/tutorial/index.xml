@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on Yuzhen(Lee)&#39;s Blog</title>
+    <link>http://localhost:61941/zh-cn/tags/tutorial/</link>
+    <description>Recent content in Tutorial on Yuzhen(Lee)&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2025 Yuzhen(Lee)</copyright>
+    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:61941/zh-cn/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering SQL Window Functions: A Comprehensive Guide</title>
+      <link>http://localhost:61941/zh-cn/tech/sql/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:61941/zh-cn/tech/sql/</guid>
+      <description>Recently, I encountered an interesting SQL challenge. The task required using window functions to analyze employee salaries within departments. This is a powerful yet sometimes tricky feature in SQL.
+Here is the problem description and how I solved it.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:61941/tech/sql/featured.jpeg" />
+    </item>
+    
+  </channel>
+</rss>

@@ -7,16 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Yuzhen(Lee)</copyright>
-    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering SQL Window Functions: A Comprehensive Guide</title>
+      <link>https://yuzhencode.github.io/tech/master-sql-window-functions/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/tech/master-sql-window-functions/</guid>
+      <description>SQL window functions are one of the most powerful and flexible tools available to analysts and developers. They allow for sophisticated calculations across rows of data while preserving the individual rows, which makes them ideal for a wide range of use cases, from ranking and cumulative sums to moving averages and comparisons.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/master-sql-window-functions/featured.jpeg" />
+    </item>
+    
     <item>
       <title>A SQL Practical Challenge on Salary Analysis</title>
-      <link>https://yuzhencode.github.io/tech/sql/</link>
+      <link>https://yuzhencode.github.io/tech/mastering-sql-window-functions-salary-analysis/</link>
       <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://yuzhencode.github.io/tech/sql/</guid>
+      <guid>https://yuzhencode.github.io/tech/mastering-sql-window-functions-salary-analysis/</guid>
       <description>Recently, I encountered an interesting SQL challenge. The task required using window functions to analyze employee salaries within departments. This is a powerful yet sometimes tricky feature in SQL.
 Here is the problem description and how I solved it.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/sql/featured.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/mastering-sql-window-functions-salary-analysis/featured.jpeg" />
     </item>
     
   </channel>

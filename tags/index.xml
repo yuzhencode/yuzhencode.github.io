@@ -7,13 +7,83 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Yuzhen(Lee)</copyright>
-    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Analysis</title>
       <link>https://yuzhencode.github.io/tags/data-analysis/</link>
-      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>https://yuzhencode.github.io/tags/data-analysis/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Database</title>
+      <link>https://yuzhencode.github.io/tags/database/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/tags/database/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LAG</title>
+      <link>https://yuzhencode.github.io/tags/lag/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/tags/lag/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LEAD</title>
+      <link>https://yuzhencode.github.io/tags/lead/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/tags/lead/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ranking</title>
+      <link>https://yuzhencode.github.io/tags/ranking/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/tags/ranking/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>SQL</title>
+      <link>https://yuzhencode.github.io/tags/sql/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/tags/sql/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://yuzhencode.github.io/tags/tutorial/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/tags/tutorial/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Window Functions</title>
+      <link>https://yuzhencode.github.io/tags/window-functions/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/tags/window-functions/</guid>
       <description></description>
       
     </item>
@@ -59,16 +129,6 @@
     </item>
     
     <item>
-      <title>SQL</title>
-      <link>https://yuzhencode.github.io/tags/sql/</link>
-      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuzhencode.github.io/tags/sql/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>SQL Queries</title>
       <link>https://yuzhencode.github.io/tags/sql-queries/</link>
       <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
@@ -94,16 +154,6 @@
       <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>https://yuzhencode.github.io/tags/top-earners/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Window Functions</title>
-      <link>https://yuzhencode.github.io/tags/window-functions/</link>
-      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuzhencode.github.io/tags/window-functions/</guid>
       <description></description>
       
     </item>

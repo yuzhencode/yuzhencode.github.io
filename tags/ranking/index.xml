@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ranking on Yuzhen(Lee)&#39;s Blog</title>
+    <link>https://yuzhencode.github.io/tags/ranking/</link>
+    <description>Recent content in Ranking on Yuzhen(Lee)&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Yuzhen(Lee)</copyright>
+    <lastBuildDate>Tue, 14 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/tags/ranking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering SQL Window Functions: A Comprehensive Guide</title>
+      <link>https://yuzhencode.github.io/tech/master-sql-window-functions/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzhencode.github.io/tech/master-sql-window-functions/</guid>
+      <description>SQL window functions are one of the most powerful and flexible tools available to analysts and developers. They allow for sophisticated calculations across rows of data while preserving the individual rows, which makes them ideal for a wide range of use cases, from ranking and cumulative sums to moving averages and comparisons.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yuzhencode.github.io/tech/master-sql-window-functions/featured.jpeg" />
+    </item>
+    
+  </channel>
+</rss>
