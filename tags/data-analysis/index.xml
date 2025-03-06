@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data Analysis on Yuzhen(Lee)&#39;s Blog</title>
+    <title>Data Analysis on Yuzhen Li&#39;s Blog</title>
     <link>https://yuzhencode.github.io/tags/data-analysis/</link>
-    <description>Recent content in Data Analysis on Yuzhen(Lee)&#39;s Blog</description>
+    <description>Recent content in Data Analysis on Yuzhen Li&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2025 Yuzhen(Lee)</copyright>
+    <copyright>© 2025 Yuzhen Li</copyright>
     <lastBuildDate>Tue, 14 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mastering SQL Window Functions: A Comprehensive Guide</title>

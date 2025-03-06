@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>项目 on Yuzhen(Lee)&#39;s Blog</title>
+    <title>项目 on Yuzhen Li&#39;s Blog</title>
     <link>https://yuzhencode.github.io/zh-cn/projects/</link>
-    <description>Recent content in 项目 on Yuzhen(Lee)&#39;s Blog</description>
+    <description>Recent content in 项目 on Yuzhen Li&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>© 2025 Yuzhen(Lee)</copyright>
+    <copyright>© 2025 Yuzhen Li</copyright>
     <lastBuildDate>Wed, 09 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzhencode.github.io/zh-cn/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何自动收集异构数据库表目录 | 专利 CN111339081A 解析</title>
